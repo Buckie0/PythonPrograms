@@ -185,7 +185,7 @@ if __name__ == "__main__":
         print('<br>')
         print('<br>')
         print('<br>')
-        print('<p style= "color: white; font-weight: bold;font-family: Verdana; font-size: 0.9em;position: absolute; left: 10px">')
+        print('''<p style= "color: white; font-weight: bold;font-family: Verdana; font-size: 0.9em;position: absolute; left: 10px">''')
         print('You can paste the below into the ticket and fill in as necessary:<br>')
         print('<br>')
         print('- Checked Logs -<br>')

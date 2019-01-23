@@ -19,13 +19,13 @@ if __name__ == "__main__":
     try:
         socket.inet_aton(Host)
     except socket.error:
-        print "location: %s\r\n\r" % Invalidip
+        print("location: %s\r\n\r") % Invalidip
         quit()
     else:
         True
     # If Valid IP is entered try to connect to device.
     # Error if unable to connect and return prompt.
-    unabletoconnect = 'http://192.168.0.100/Unabletoconnect'
+    unabletoconnect = ('http://192.168.0.100/Unabletoconnect')
     try:
         TELNET_PORT = 23
         TELNET_TIMEOUT = 6
@@ -33,7 +33,7 @@ if __name__ == "__main__":
         remote_conn = telnetlib.Telnet(Host, TELNET_PORT,
                                        TELNET_TIMEOUT)
     except socket.error:
-        print "location: %s\r\n\r" % unabletoconnect
+        print("location: %s\r\n\r") % unabletoconnect
         quit()
     else:
         True
@@ -46,7 +46,7 @@ if __name__ == "__main__":
         if not username + password:
             raise ValueError
     except ValueError:
-        print "location: %s\r\n\r" % enterusername
+        print("location: %s\r\n\r") % enterusername
         quit()
     else:
         True
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     time.sleep(1)
     user = remote_conn.read_very_eager()
     if "failed" in user:
-        print "location: %s\r\n\r" % invaliduser
+        print("location: %s\r\n\r") % invaliduser
         quit()
     else:
         True
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         if not enable:
             raise ValueError
     except ValueError:
-        print "location: %s\r\n\r" % enterenable
+        print("location: %s\r\n\r") % enterenable
         quit()
     else:
         True
@@ -88,13 +88,13 @@ if __name__ == "__main__":
     invalidenable = 'http://192.168.0.100/Invalidenable'
     user = remote_conn.read_very_eager()
     if "Error" in user:
-        print "location: %s\r\n\r" % invalidenable
+        print("location: %s\r\n\r") % invalidenable
         quit()
     else:
         True
 
     def Webpage(adddrops, duplexdrop):
-        print 'Content-type: text/html'
+        print('Content-type: text/html')
         print
         print '<html>'
         print '<head>'
