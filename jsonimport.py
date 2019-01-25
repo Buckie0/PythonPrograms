@@ -22,3 +22,6 @@ with open('Job' + job + '.csv', 'w') as f:
 
 # json.dumps(data, indent=4)
 # result['stdout_lines']
+
+
+88
