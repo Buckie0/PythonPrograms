@@ -15,7 +15,6 @@ csvjob = 'Job' + job + '.csv'
 textjob = 'Job' + job + '.txt'
 
 while True:
-    page += 1
     r = requests.get(url + job + end + str(page))
     data = r.json()
     result1 = nested_lookup("stdout_lines", data)
