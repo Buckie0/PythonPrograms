@@ -28,7 +28,6 @@ while True:
     else:
         print("Finshed")
 
-
 # Testing
 
 r = requests.get(url + job + end + str(page))
@@ -44,7 +43,7 @@ for x in result1:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(result1)
-        if response != "200":
-            continue
-        else:
-            print("Finshed")
+    if response != "200":
+        continue
+    else:
+        print("Finshed")
