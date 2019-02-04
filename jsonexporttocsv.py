@@ -19,14 +19,14 @@ while True:
     data = r.json()
     result1 = nested_lookup("stdout_lines", data)
     response = r.status_code
-    if response == "200":
-        page += 1
-        print("Page " + str(page))
-        with open(textjob, 'a') as f:
-            out = json.dump(result1, f, indent=1)
+    page += 1
+    print("Page " + str(page))
+    with open(textjob, 'a') as f:
+        out = json.dump(result1, f, indent=1)
+    if response != "200":
         continue
-    elif response != "200":
-        break
+    else:
+        print("Finshed")
 
 
 # Testing
@@ -37,11 +37,14 @@ result1 = nested_lookup("stdout_lines", data)
 response = r.status_code
 
 for x in result1:
-    if response == "200":
-        page += 1
-        print("Page " + str(page))
-        with open(csvjob, 'w') as f:
-            fields = ["Device Name", "Command"]
-            writer = csv.DictWriter(f, fieldnames=fields)
-            writer.writeheader()
-            writer.writerows(result1)
+    page += 1
+    print("Page " + str(page))
+    with open(csvjob, 'w') as f:
+        fields = ["Device Name", "Command"]
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(result1)
+        if response != "200":
+            continue
+        else:
+            print("Finshed")
