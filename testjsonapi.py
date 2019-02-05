@@ -20,6 +20,11 @@ csvjob = 'Job' + '.csv'
 while True:
     page += 1
     print("Page " + str(page))
+    r = requests.get(url + end + str(page))
+    data = r.json()
+    result1 = nested_lookup('name', data)
+    homeworld = nested_lookup('homeworld', data)
+    response = r.status_code
     with open(csvjob, 'w') as f:
         fields = ["Name", "Link to Homeworld"]
         writer = csv.DictWriter(f, fieldnames=fields)
