@@ -30,8 +30,8 @@ while True:
 with open(textjob) as f:
     newdata = json.loads(f)
 
-hosts = newdata["results"]
-print(hosts)
+
+print(type(newdata))
 
 # with open(csvjob, 'a', newline='\n') as f:
 #     writer = csv.writer(f)

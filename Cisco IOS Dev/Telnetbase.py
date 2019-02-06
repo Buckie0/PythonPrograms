@@ -5,6 +5,7 @@ import time
 import getpass
 import socket
 import os
+import pandas
 
 if __name__ == "__main__":
 
@@ -13,6 +14,16 @@ if __name__ == "__main__":
 
 # Request Device IP
 # Check input is a valid IP, Error if it isnt and return to prompt.
+
+    # columns = ('Network Name', 'Management IP')
+    data = pandas.read_csv('DSLlist.csv')
+    list = (data)
+
+    print(type(list))
+
+    # Test
+    quit()
+
     while True:
         Host = input('Enter CE IP: ')
         while True:
