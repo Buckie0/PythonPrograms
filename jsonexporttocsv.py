@@ -1,49 +1,66 @@
 import requests
 import csv
 import json
-from nested_lookup import nested_lookup
+# from nested_lookup import nested_lookup
 
-# job_event data
 url = "http://m_buck:b7SqUA4yB7qf@ansible.localnet/api/v2/jobs/"
 job = input('Enter Job ID: ')
 end = "/job_events/?page="
 page = 0
 
-print("Creating .txt file for job " + job)
+print('Getting Data...')
 
+textjob = 'Job' + job + '.json'
 csvjob = 'Job' + job + '.csv'
-textjob = 'Job' + job + '.txt'
 
 while True:
+    page += 1
     r = requests.get(url + job + end + str(page))
     data = r.json()
-    result1 = nested_lookup("stdout_lines", data)
     response = r.status_code
-    page += 1
     print("Page " + str(page))
-    with open(textjob, 'a') as f:
-        out = json.dump(result1, f, indent=1)
-    if response != "200":
-        continue
-    else:
+    with open(textjob, 'w') as b:
+        json_data = json.dumps(data)
+
+    if response != 200:
         print("Finshed")
+        b.close()
+        break
 
-# Testing
+with open(textjob) as f:
+    newdata = json.loads(f)
 
-r = requests.get(url + job + end + str(page))
-data = r.json()
-result1 = nested_lookup("stdout_lines", data)
-response = r.status_code
+hosts = newdata["results"]
+print(hosts)
 
-for x in result1:
-    page += 1
-    print("Page " + str(page))
-    with open(csvjob, 'w') as f:
-        fields = ["Device Name", "Command"]
-        writer = csv.DictWriter(f, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(result1)
-    if response != "200":
-        continue
-    else:
-        print("Finshed")
+# with open(csvjob, 'a', newline='\n') as f:
+#     writer = csv.writer(f)
+#     writer.writerow(hosts)
+
+# with open(textjob) as f:
+#     newdata = json.loads(f)
+# print(newdata)
+
+# list = newdata["results"]
+
+# print(list)
+
+
+# def find(key, dictionary):
+#     for k, v in dictionary.items():
+#         if k == key:
+#             yield v
+#         elif isinstance(v, dict):
+#             for result in find(key, v):
+#                 yield result
+#         elif isinstance(v, list):
+#             for d in v:
+#                 for result in find(key, d):
+#                     yield result
+
+
+
+# print('Creating .txt file for job ' + job)
+# with open(csvjob, 'a', newline='\n') as c:
+#     writer = csv.writer(c)
+#     writer.writerows(find('stdout_lines', list))
