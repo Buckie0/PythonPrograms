@@ -1,0 +1,252 @@
+2019-03-04 15:21:04,429 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:21:04,429 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:21:04,432 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:21:04,432 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:21:04,475 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:21:04,475 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:21:04,478 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 15:21:04,478 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 15:37:08,592 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:37:08,592 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:37:08,592 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:37:08,592 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:37:08,629 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:37:08,629 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:37:08,635 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 15:37:08,635 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 15:45:53,948 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:45:53,948 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 15:45:53,948 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:45:53,948 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 15:45:53,990 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:45:53,990 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 15:45:53,993 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 15:45:53,993 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:01:01,773 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:01:01,773 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:01:01,773 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:01:01,773 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:01:01,806 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:01:01,806 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:01:01,809 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:01:01,809 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:03:31,457 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:03:31,457 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:03:31,457 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:03:31,457 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:03:31,494 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:03:31,494 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:03:31,498 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:03:31,498 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:06:54,238 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:06:54,238 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:06:54,239 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:06:54,239 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:06:54,273 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:06:54,273 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:06:54,275 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:06:54,275 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:28:50,777 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:28:50,777 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-03-04 16:28:50,777 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:28:50,777 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-03-04 16:28:50,821 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:28:50,821 - nornir.core.task -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-03-04 16:28:50,824 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-03-04 16:28:50,824 - nornir.core.task -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+

@@ -1,0 +1,72 @@
+2019-02-22 16:21:11,354 -       nornir -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 20
+2019-02-22 16:21:11,354 -       nornir -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 20
+2019-02-22 16:21:11,355 -       nornir -    DEBUG -        run() - {'command_string': 'sh ip int brief'}
+2019-02-22 16:21:11,355 -       nornir -    DEBUG -        run() - {'command_string': 'sh ip int brief'}
+2019-02-22 16:21:11,382 -       nornir -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-02-22 16:21:11,382 -       nornir -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-02-22 16:21:11,385 -       nornir -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\task.py", line 63, in start
+    r = self.task(self, **self.params)
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\tasks\networking\netmiko_send_command.py", line 21, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko")
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 292, in get_connection
+    configuration=config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 346, in open_connection
+    else self.nornir.config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\connections\netmiko.py", line 50, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-02-22 16:21:11,385 -       nornir -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\task.py", line 63, in start
+    r = self.task(self, **self.params)
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\tasks\networking\netmiko_send_command.py", line 21, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko")
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 292, in get_connection
+    configuration=config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 346, in open_connection
+    else self.nornir.config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\connections\netmiko.py", line 50, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-02-22 16:51:38,801 -       nornir -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 20
+2019-02-22 16:51:38,801 -       nornir -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 20
+2019-02-22 16:51:38,801 -       nornir -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-02-22 16:51:38,801 -       nornir -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-02-22 16:51:38,809 -       nornir -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-02-22 16:51:38,809 -       nornir -     INFO -      start() - MBuck-Test: netmiko_send_command: running task
+2019-02-22 16:51:38,812 -       nornir -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\task.py", line 63, in start
+    r = self.task(self, **self.params)
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\tasks\networking\netmiko_send_command.py", line 21, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko")
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 292, in get_connection
+    configuration=config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 346, in open_connection
+    else self.nornir.config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\connections\netmiko.py", line 50, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+
+2019-02-22 16:51:38,812 -       nornir -    ERROR -      start() - MBuck-Test: Traceback (most recent call last):
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\task.py", line 63, in start
+    r = self.task(self, **self.params)
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\tasks\networking\netmiko_send_command.py", line 21, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko")
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 292, in get_connection
+    configuration=config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\core\inventory.py", line 346, in open_connection
+    else self.nornir.config,
+  File "c:\Users\m_buck\Google Drive\Code\Nornir\nornir\nornir\plugins\connections\netmiko.py", line 50, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 214, in ConnectHandler
+    if kwargs['device_type'] not in platforms:
+KeyError: 'device_type'
+

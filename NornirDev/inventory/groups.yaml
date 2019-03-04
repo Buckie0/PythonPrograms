@@ -1,5 +1,10 @@
 ---
-defaults:
-  domain: networks.localnet
+# defaults:
+#   domain: networks.localnet
 
-cisco_ios:
+# ios:
+#   country: UK
+
+# ios_test:
+#   groups:
+#     - ios
