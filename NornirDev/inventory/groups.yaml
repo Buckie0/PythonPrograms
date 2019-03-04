@@ -1,0 +1,5 @@
+---
+defaults:
+  domain: networks.localnet
+
+cisco_ios:

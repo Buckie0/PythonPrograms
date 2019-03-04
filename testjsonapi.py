@@ -1,11 +1,10 @@
 import requests
 import csv
 import json
-# from nested_lookup import nested_lookup
+from nested_lookup import nested_lookup
 
-url = "https://swapi.co/api/"
-# job = input('Enter Job ID: ')
-end = "people/?page="
+url = 'https://swapi.co/api/'
+end = 'people/?page='
 page = 0
 
 csvjob = 'Job' + '.csv'
@@ -27,20 +26,42 @@ csvjob = 'Job' + '.csv'
 print('Getting Data...')
 while True:
     page += 1
-    print("Page " + str(page))
+    print('Page ' + str(page))
     r = requests.get(url + end + str(page))
-    data = r.json()
-#     result1 = nested_lookup('name', data)
-#     homeworld = nested_lookup('homeworld', data)
     response = r.status_code
-    textjob = 'Job' + '.json'
-    with open(textjob, 'a') as f:
-        out = json.dump(data, f, indent=1)
+    textjob = 'Job' + '.txt'
+    data = r.json()
+    results = data.get('results')
+    for i in results:
+        name = i['name']
+        height = i['height']
+        homeworld = i['homeworld']
+    with open(textjob, 'a',) as f:
+            json.dump(name, f, indent=2)
+            json.dump(height, f, indent=2)
+            json.dump(homeworld, f, indent=2)
+            f.write('\n')
     if response != 200:
         break
         f.close()
-        print("Creating file")
+        print('Creating file')
 
-with open(textjob) as f:
-    string = json.loads(f)
 
+# def find(key, dictionary):
+#     for k, v in dictionary.items():
+#         if k == key:
+#             yield v
+#         elif isinstance(v, dict):
+#             for result in find(key, v):
+#                 yield result
+#         elif isinstance(v, list):
+#             for d in v:
+#                 for result in find(key, d):
+#                     yield result
+
+# with open(textjob) as f:
+#     string = json.load(f)
+#     # name = nested_lookup('name', string)
+#     # homeworld = nested_lookup('homeworld', string)
+
+# print(string)

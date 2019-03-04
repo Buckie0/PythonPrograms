@@ -18,15 +18,14 @@ if __name__ == "__main__":
 # Request Device IP
 # Check input is a valid IP, Error if it isnt and return to prompt.
     while True:
-        # Host = raw_input("Enter CE IP: ")
-        Host = "10.161.15.243"
+        Host = input("Enter CE IP: ")
         while True:
             try:
                 socket.inet_aton(Host)
             except socket.error:
                 print('%s Please Enter a Valid IP! %s' % (fg(1), attr(0)))
-                # Host = raw_input("Enter CE IP: ")
-                Host = "10.161.15.243"
+                Host = input("Enter CE IP: ")
+
                 continue
             else:
                 break
@@ -48,10 +47,8 @@ if __name__ == "__main__":
 # If incorrect return prompt.
     while True:
         while True:
-            # username = raw_input("Username: ")
-            username = "m_buck"
-            # password = getpass.getpass("Password: ")
-            password = "Sa12s0mb"
+            username = input("Username: ")
+            password = getpass.getpass("Password: ")
             try:
                 if not username + password:
                     raise ValueError
@@ -134,8 +131,7 @@ d$$$$$$$$$$c    $$PF,cd$$$$$$$$$$$F           `$$$$$$,"$$$$$$c
 # Enter Enable
     while True:
         while True:
-            # enable = getpass.getpass("Enable: ")
-            enable = "Sa12s0mb"
+            enable = getpass.getpass("Enable: ")
             try:
                 if not enable:
                     raise ValueError

@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # columns = ('Network Name', 'Management IP')
     data = pandas.read_csv('DSLlist.csv')
-    list = (data)
+    list = list(data)
 
     print(type(list))
 

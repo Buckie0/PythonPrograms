@@ -1,0 +1,10 @@
+---
+MBuck-Test:
+    nornir_host: 10.161.15.243
+    nornir_ssh_port: 2201
+    nornir_username: m_buck
+    nornir_password: Sa12s0mb
+    groups:
+        - cisco_ios
+    nornir_nos: ios
+    type: network_device
