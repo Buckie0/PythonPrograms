@@ -1,11 +1,12 @@
 ---
-MBuck-Test:
-    hostname: 10.161.15.243
-    port: 2201
-    username: m_buck
-    password: Sa12s0mb
-    # groups:
-    #     - cisco_ios
-    # nornir_nos: ios
-    # groups:
-    #   - ios_test
+  MBuck-Test:
+    nornir_host: '10.161.15.251'
+    nornir_ssh_port: 2201
+    nornir_username: 'm_buck'
+    nornir_password: 'Sa12s0mb'
+    site: 'Redcentric'
+    role: 'host'
+    groups:
+        - 'Test'
+    nornir_nos: 'linux'
+    type: 'host'
