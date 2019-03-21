@@ -1,12 +1,18 @@
 ---
-  MBuck-Test:
-    nornir_host: '10.161.15.251'
-    nornir_ssh_port: 2201
-    nornir_username: 'm_buck'
-    nornir_password: 'Sa12s0mb'
-    site: 'Redcentric'
-    role: 'host'
-    groups:
-        - 'Test'
-    nornir_nos: 'linux'
-    type: 'host'
+GNS.CE1:
+    hostname: 127.0.0.1
+    port: 5003
+    # groups:
+    #     - IOS
+
+GNS.CE2:
+    hostname: 127.0.0.1
+    port: 5004
+    # groups:
+    #     - IOS
+
+GNS.CE3:
+    hostname: 127.0.0.1
+    port: 5005
+    # groups:
+    #     - IOS
