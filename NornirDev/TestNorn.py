@@ -16,7 +16,7 @@ duplex = nornir_host.run(
     command_string='sh int status'
 )
 print_result(duplex)
-if "half" in duplex:
+if "half" in duplex.result:
     print('''%s\n  HALF DUPLEX DISCOVERED.
   PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int status)%s
   ''' % (fg(1), attr(0)))
@@ -30,7 +30,7 @@ log_check = nornir_host.run(
     command_string='sh log'
 )
 print_result(log_check)
-if "down" in log_check:
+if "down" in log_check.result:
     print('''%s\n  DROPS SEEN.
   PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh log)%s''' % (fg(1), attr(0)))
 elif log_check:
@@ -43,7 +43,7 @@ crc = nornir_host.run(
     command_string='sh run | i CRC'
 )
 print_result(crc)
-if ("0") not in crc:
+if ("0") not in crc.result:
     print('''%s\n  INTERFACE ERRORS SEEN.
   PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int | i CRC)%s
   ''' % (fg(1), attr(0)))
