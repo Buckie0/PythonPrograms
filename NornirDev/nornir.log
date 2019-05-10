@@ -898,3 +898,73 @@ KeyError: 'device_type'
 2019-03-06 09:47:31,304 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
 2019-03-06 09:47:31,304 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
 2019-03-06 09:47:31,304 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-05-09 16:15:23,598 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-05-09 16:15:23,598 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-05-09 16:15:23,599 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-05-09 16:15:23,599 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-05-09 16:15:23,647 - nornir.core.task -     INFO -      start() - NET002A-101HSMANCHESTER.CE1: netmiko_send_command: running task
+2019-05-09 16:15:23,647 - nornir.core.task -     INFO -      start() - NET002A-101HSMANCHESTER.CE1: netmiko_send_command: running task
+2019-05-09 16:15:44,702 - nornir.core.task -    ERROR -      start() - NET002A-101HSMANCHESTER.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 343, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\util.py", line 280, in retry_on_signal
+    return function()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 343, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.37.212:22
+
+2019-05-09 16:15:44,702 - nornir.core.task -    ERROR -      start() - NET002A-101HSMANCHESTER.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 343, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\util.py", line 280, in retry_on_signal
+    return function()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 343, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.37.212:22
+
