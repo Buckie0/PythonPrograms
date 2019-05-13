@@ -1,6 +1,24 @@
 ---
-# IOS:
-#   role: CiscoIOS
-
-# Servers:
-#   role: Servers
+cisco-ios:
+  platform: cisco_ios
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'Sa12s0mb'
+        # session_log: 'netmiko_nornir_log.log'
+cisco-ios-telnet:
+  platform: cisco_ios_telnet
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'Sa12s0mb'
+        # session_log: 'netmiko_nornir_log.log'
+cisco-nx-os:
+  platform: cisco_nxos
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'Sa12s0mb'
+        # session_log: 'netmiko_nornir_log.log'
+fortigate:
+  platform: fortinet

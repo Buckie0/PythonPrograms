@@ -1,18 +1,5 @@
 ---
-GNS.CE1:
-    hostname: 127.0.0.1
-    port: 5003
-    # groups:
-    #     - IOS
-
-GNS.CE2:
-    hostname: 127.0.0.1
-    port: 5004
-    # groups:
-    #     - IOS
-
-GNS.CE3:
-    hostname: 127.0.0.1
-    port: 5005
-    # groups:
-    #     - IOS
+NET002A-101HSMANCHESTER.CE1:
+    hostname: 10.161.37.212
+    groups:
+        - cisco-ios
