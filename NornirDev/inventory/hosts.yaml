@@ -1,5 +1,10 @@
 ---
-NET002A-101HSMANCHESTER.CE1:
-    hostname: 10.161.37.212
+# NET002A-101HSMANCHESTER.CE1:
+#     hostname: 10.161.37.212
+#     groups:
+#         - cisco-ios
+
+NET14070-DSL-TONBRIDGE.CE1:
+    hostname: 10.161.43.228
     groups:
         - cisco-ios
