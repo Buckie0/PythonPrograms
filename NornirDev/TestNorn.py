@@ -6,19 +6,19 @@ from nornir.plugins.tasks.networking import netmiko_send_command
 
 nornir_host = InitNornir(config_file='config.yaml')
 
-# runhost = nornir_host.filter(role="CiscoIOS")
+# runhost = nornir_host.filter(groups="cisco-ios")
 
 print(nornir_host.inventory.hosts)
 
 
-def duplex():
-    print('\n Checking Duplex, Please Wait...')
-    duplex = nornir_host.run(
+def duplex(task):
+    print(' Checking Duplex, Please Wait...')
+    duplex_check = task.run(
         task=netmiko_send_command,
         command_string='sh int status'
     )
-    print_result(duplex)
-    if "half" in duplex.result:
+    print_result(duplex_check)
+    if "half" in duplex_check.result:
         print('''%s\n  HALF DUPLEX DISCOVERED.
       PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int status)%s
       ''' % (fg(1), attr(0)))
@@ -42,12 +42,12 @@ def logs():
 
 def crc():
     print('\n Checking interfaces for errors, Please Wait...')
-    crc = nornir_host.run(
+    crc_check = nornir_host.run(
         task=netmiko_send_command,
         command_string='sh run | i CRC'
     )
-    print_result(crc)
-    if ("0") not in crc.result:
+    print_result(crc_check)
+    if ("0") not in crc_check.result:
         print('''%s\n  INTERFACE ERRORS SEEN.
       PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int | i CRC)%s
       ''' % (fg(1), attr(0)))
@@ -56,4 +56,6 @@ def crc():
 
 
 if __name__ == "__main__":
-    duplex()
+    duplex(nornir_host)
+    logs()
+    crc()
