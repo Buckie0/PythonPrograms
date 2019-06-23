@@ -9,7 +9,7 @@ nornir_host = InitNornir(config_file='config.yaml')
 # runhost = nornir_host.filter(groups="cisco-ios")
 
 print(nornir_host.inventory.hosts)
-
+  
 
 def duplex(task):
     print(' Checking Duplex, Please Wait...')
