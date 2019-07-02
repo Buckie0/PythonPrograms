@@ -1756,3 +1756,573 @@ netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: c
 2019-05-22 11:57:40,001 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
 2019-05-22 11:57:40,054 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
 2019-05-22 11:57:40,054 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:04:29,668 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:04:29,668 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:04:29,668 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:04:29,668 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:04:29,708 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:04:29,708 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:09:42,842 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:09:42,842 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:09:42,842 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:09:42,842 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:09:42,876 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:09:42,876 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:11:14,383 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:11:14,383 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:11:14,383 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:11:14,383 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:11:14,419 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:11:14,419 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:14:10,536 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:14:10,536 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:14:10,536 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:14:10,536 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:14:10,570 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:14:10,570 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:26:02,191 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:26:02,191 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:26:02,192 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:26:02,192 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:26:02,228 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:26:02,228 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:37:50,120 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:37:50,120 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:37:50,121 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:37:50,121 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:37:50,155 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:37:50,155 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:37:55,959 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:37:55,959 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:37:55,959 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:37:55,959 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:37:55,982 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:37:55,982 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:53,392 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:53,392 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:53,393 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:45:53,393 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:45:53,428 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:53,428 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:59,244 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:59,244 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:59,244 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:45:59,244 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:45:59,267 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:59,267 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:59,899 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:59,899 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:45:59,899 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:45:59,899 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:45:59,921 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:45:59,921 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:47:58,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:47:58,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:47:58,980 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:47:58,980 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:47:59,014 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:47:59,014 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:04,790 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:04,790 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:04,790 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:48:04,790 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:48:04,814 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:04,814 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:05,447 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:05,447 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:05,447 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:48:05,447 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:48:05,476 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:05,476 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:52,194 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:52,194 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:52,194 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:48:52,194 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:48:52,229 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:52,229 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:58,048 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:58,048 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:58,049 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:48:58,049 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:48:58,086 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:58,086 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:58,720 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:58,720 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:48:58,721 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:48:58,721 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:48:58,775 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:48:58,775 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:08,881 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:08,881 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:08,881 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:52:08,881 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:52:08,916 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:08,916 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:14,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:14,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:14,736 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:52:14,736 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:52:14,767 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:14,767 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:15,381 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:15,381 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:52:15,381 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:52:15,381 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:52:15,400 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:52:15,400 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:06,058 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:06,058 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:06,058 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:57:06,058 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 11:57:06,094 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:06,094 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:11,940 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:11,940 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:11,941 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:57:11,941 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 11:57:11,967 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:11,967 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:12,598 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:12,598 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 11:57:12,598 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:57:12,598 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 11:57:12,622 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 11:57:12,622 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:00,142 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:00,142 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:00,143 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:04:00,143 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:04:00,224 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:00,224 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:06,304 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:06,304 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:06,305 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:04:06,305 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:04:06,355 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:06,355 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:06,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:06,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:04:06,980 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:04:06,980 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:04:07,028 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:04:07,028 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:12,427 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:12,427 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:12,427 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:08:12,427 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:08:12,500 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:12,500 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:18,581 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:18,581 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:18,582 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:08:18,582 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:08:18,633 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:18,633 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:19,351 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:19,351 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:08:19,352 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:08:19,352 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:08:19,399 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:08:19,399 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:27,951 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:27,951 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:27,951 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:10:27,951 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:10:28,021 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:28,021 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:34,080 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:34,080 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:34,080 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:10:34,080 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:10:34,130 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:34,130 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:34,847 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:34,847 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:10:34,848 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:10:34,848 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:10:34,896 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:10:34,896 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:11:27,019 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:11:27,019 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:11:27,020 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:11:27,020 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:11:27,091 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:11:27,091 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:11:54,349 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:11:54,349 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:11:54,350 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh logging'}
+2019-07-02 13:11:54,350 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh logging'}
+2019-07-02 13:11:54,427 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:11:54,427 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:24,495 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:24,495 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:24,496 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:15:24,496 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:15:24,569 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:24,569 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:30,638 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:30,638 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:30,639 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:15:30,639 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:15:30,690 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:30,690 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:31,408 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:31,408 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:15:31,409 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:15:31,409 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:15:31,462 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:15:31,462 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:17:13,317 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:17:13,317 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:17:13,317 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:17:13,317 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:17:13,388 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:17:13,388 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:17:41,672 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:17:41,672 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:17:41,673 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run || i CRC'}
+2019-07-02 13:17:41,673 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run || i CRC'}
+2019-07-02 13:17:41,749 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:17:41,749 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:18:29,032 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:18:29,032 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:18:29,033 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:18:29,033 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:18:29,109 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:18:29,109 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:21:16,993 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:21:16,993 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:21:16,994 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:21:16,994 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:21:17,069 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:21:17,069 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:06,997 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:06,997 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:06,998 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:22:06,998 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:22:07,069 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:07,069 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:13,154 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:13,154 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:13,155 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:22:13,155 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:22:13,212 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:13,212 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:13,932 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:13,932 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:22:13,932 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:22:13,932 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:22:13,982 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:22:13,982 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:27,749 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:27,749 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:27,750 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:23:27,750 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 13:23:27,826 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:27,826 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:33,892 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:33,892 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:33,893 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:23:33,893 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 13:23:33,949 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:33,949 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:34,674 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:34,674 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 13:23:34,674 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:23:34,674 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 13:23:34,725 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 13:23:34,725 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:09,226 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:09,226 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:09,227 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:09:09,227 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:09:09,307 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:09,307 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:15,431 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:15,431 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:15,432 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:09:15,432 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:09:15,483 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:15,483 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:16,205 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:16,205 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:09:16,206 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:09:16,206 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:09:16,264 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:09:16,264 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:23,101 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:23,101 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:23,101 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:42:23,101 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:42:23,180 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:23,180 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:30,287 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:30,287 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:30,288 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:42:30,288 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:42:30,337 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:30,337 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:31,956 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:31,956 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:31,957 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:42:31,957 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:42:32,003 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:32,003 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:33,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:33,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:33,737 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:42:33,737 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:42:33,785 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:33,785 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:35,404 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:35,404 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:35,405 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:42:35,405 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:42:35,454 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:35,454 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:57,928 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:57,928 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:42:57,929 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:42:57,929 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:42:58,003 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:42:58,003 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:07,520 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:07,520 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:07,521 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:43:07,521 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:43:07,572 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:07,572 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:11,291 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:11,291 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:11,292 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:43:11,292 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:43:11,339 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:11,339 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:15,066 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:15,066 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:15,067 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:43:15,067 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:43:15,117 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:15,117 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:18,742 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:18,742 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:43:18,743 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:43:18,743 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:43:18,795 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:43:18,795 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:44:48,548 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:44:48,548 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:44:48,549 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:44:48,549 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:44:48,622 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:44:48,622 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:44:57,662 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:44:57,662 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:44:57,663 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:44:57,663 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:44:57,711 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:44:57,711 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:01,339 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:01,339 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:01,340 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:45:01,340 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:45:01,384 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:01,384 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:05,008 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:05,008 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:05,009 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:45:05,009 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:45:05,055 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:05,055 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:08,772 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:08,772 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:45:08,773 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:45:08,773 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:45:08,830 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:45:08,830 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:52:40,226 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:52:40,226 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:52:40,227 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:52:40,227 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:52:40,300 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:52:40,300 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:12,565 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:12,565 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:12,565 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 14:58:12,565 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 14:58:12,643 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:12,643 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:19,716 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:19,716 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:19,717 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:58:19,717 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 14:58:19,766 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:19,766 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:21,487 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:21,487 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:21,487 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:58:21,487 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 14:58:21,537 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:21,537 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:23,256 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:23,256 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:23,257 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:58:23,257 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 14:58:23,310 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:23,310 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:25,029 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:25,029 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:25,030 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:58:25,030 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 14:58:25,088 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:25,088 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:26,705 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:26,705 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 14:58:26,706 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:58:26,706 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 14:58:26,757 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 14:58:26,757 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:25,237 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:25,237 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:25,237 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:02:25,237 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:02:25,315 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:25,315 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:32,388 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:32,388 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:32,389 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:02:32,389 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:02:32,444 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:32,444 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:34,163 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:34,163 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:34,164 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:02:34,164 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:02:34,216 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:34,216 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:35,937 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:35,937 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:35,938 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:02:35,938 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:02:35,985 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:35,985 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:37,607 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:37,607 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:37,608 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:02:37,608 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:02:37,665 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:37,665 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:39,283 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:39,283 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:02:39,284 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:02:39,284 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:02:39,331 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:02:39,331 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:09,361 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:09,361 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:09,362 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:03:09,362 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:03:09,441 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:09,441 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:16,427 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:16,427 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:16,428 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:03:16,428 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:03:16,477 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:16,477 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:18,195 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:18,195 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:18,196 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:03:18,196 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:03:18,250 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:18,250 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:19,970 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:19,970 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:19,971 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:03:19,971 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:03:20,018 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:20,018 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:21,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:21,736 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:21,737 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:03:21,737 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:03:21,791 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:21,791 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:23,409 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:23,409 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:03:23,410 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:03:23,410 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:03:23,463 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:03:23,463 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:11,414 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:11,414 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:11,415 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:04:11,415 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:04:11,494 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:11,494 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:18,575 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:18,575 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:18,576 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:04:18,576 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:04:18,629 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:18,629 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:20,347 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:20,347 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:20,348 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:04:20,348 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:04:20,401 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:20,401 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:22,122 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:22,122 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:22,122 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:04:22,122 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:04:22,172 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:22,172 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:23,891 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:23,891 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:23,892 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:04:23,892 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:04:23,946 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:23,946 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:25,564 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:25,564 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:04:25,565 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:04:25,565 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:04:25,615 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:04:25,615 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:00,041 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:00,041 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:00,042 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:05:00,042 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-02 15:05:00,116 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:00,116 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:07,192 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:07,192 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:07,193 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:05:07,193 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-02 15:05:07,249 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:07,249 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:08,969 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:08,969 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:08,970 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:05:08,970 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-02 15:05:09,025 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:09,025 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:10,743 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:10,743 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:10,744 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:05:10,744 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-02 15:05:10,796 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:10,796 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:12,418 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:12,418 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:12,419 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:05:12,419 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-02 15:05:12,474 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:12,474 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:14,097 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:14,097 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-02 15:05:14,098 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:05:14,098 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-02 15:05:14,161 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-02 15:05:14,161 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
