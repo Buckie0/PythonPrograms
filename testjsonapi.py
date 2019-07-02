@@ -23,6 +23,13 @@ csvjob = 'Job' + '.csv'
 #         writer.writerows(result1)
 #         writer.writerows(homeworld)
 
+
+def list_checker(v):
+    for name in v:
+        if name == "name"
+            print 
+
+
 print('Getting Data...')
 while True:
     page += 1
@@ -33,7 +40,8 @@ while True:
     data = r.json()
     results = data.get('results')
     for i in results:
-        name = i['name']
+        if i == 'name':
+            print i
         height = i['height']
         homeworld = i['homeworld']
     with open(textjob, 'a',) as f:
