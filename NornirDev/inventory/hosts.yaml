@@ -1,10 +1,45 @@
 ---
-# NET002A-101HSMANCHESTER.CE1:
-#     hostname: 10.161.37.212
-#     groups:
-#         - cisco-ios
-
 NET14070-DSL-TONBRIDGE.CE1:
     hostname: 10.161.43.228
+    groups:
+        - cisco-ios
+
+NET10756-READING.CE3:
+    hostname: 10.161.41.5
+    groups:
+        - cisco-ios
+
+NET10756-BIRMINGHAM.CE3:
+    hostname: 10.161.40.212
+    groups:
+        - cisco-ios
+
+NET10756-MILTONKEYNES.CE2:
+    hostname: 10.161.40.223
+    groups:
+        - cisco-ios
+
+NET10756-EDINBURGH.CE1:
+    hostname: 10.161.69.163
+    groups:
+        - cisco-ios
+
+NET10756-NOTTINGHAM.CE4:
+    hostname: 10.160.123.67
+    groups:
+        - cisco-ios
+
+NET10756-SPINNINGFIELDS.CE1:
+    hostname: 10.160.61.78
+    groups:
+        - cisco-ios
+
+NET10756-STMARTINS.CE1:
+    hostname: 10.160.61.78
+    groups:
+        - cisco-ios
+    
+NET10756-MONTGOMMERYSTREET.CE1:
+    hostname: 10.161.235.172
     groups:
         - cisco-ios

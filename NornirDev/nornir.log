@@ -2326,3 +2326,1525 @@ netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: c
 2019-07-02 15:05:14,098 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
 2019-07-02 15:05:14,161 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
 2019-07-02 15:05:14,161 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:16,276 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:16,276 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:16,277 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-03 13:54:16,277 -  nornir.core -    DEBUG -        run() - {'command_string': 'terminal length 0\n'}
+2019-07-03 13:54:16,379 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:16,379 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:23,784 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:23,784 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:23,785 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-03 13:54:23,785 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-03 13:54:23,834 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:23,834 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:25,553 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:25,553 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:25,554 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-03 13:54:25,554 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh log'}
+2019-07-03 13:54:25,608 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:25,608 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:27,248 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:27,248 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:27,249 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-03 13:54:27,249 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh run | i CRC'}
+2019-07-03 13:54:27,301 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:27,301 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:28,922 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:28,922 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:28,923 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-03 13:54:28,923 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-03 13:54:28,979 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:28,979 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:30,597 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:30,597 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:54:30,598 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-03 13:54:30,598 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh vrf'}
+2019-07-03 13:54:30,653 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:54:30,653 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:55:50,933 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:55:50,933 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-03 13:55:50,934 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-03 13:55:50,934 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh int status'}
+2019-07-03 13:55:51,016 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-03 13:55:51,016 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 14:44:46,679 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 14:44:46,679 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 14:44:46,679 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 14:44:46,679 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 14:44:46,718 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 14:44:46,718 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,404 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 14:55:04,404 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 14:55:04,405 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 14:55:04,405 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 14:55:04,435 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 14:55:04,436 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 14:55:05,802 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 14:55:05,802 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 14:55:05,803 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 14:55:05,803 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 15:04:12,464 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 15:04:12,464 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 15:04:12,464 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 15:04:12,464 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,496 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:12,495 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 15:04:13,720 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 15:04:13,720 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 15:04:13,720 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 15:04:13,720 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 15:04:32,176 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 15:04:32,176 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 15:04:32,176 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 15:04:32,176 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,208 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,208 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 15:04:32,207 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 15:04:33,363 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 15:04:33,363 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 15:04:33,363 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 15:04:33,363 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:01:01,921 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:01:01,921 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:01:01,921 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:01:01,921 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:01:01,958 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:01:01,959 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:01:03,224 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:01:03,224 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:01:03,224 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:01:03,224 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:02:26,407 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:02:26,407 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:02:26,408 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:02:26,408 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:02:26,440 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,440 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,441 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:02:26,442 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:02:27,838 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:02:27,838 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:02:27,839 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:02:27,839 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:15:34,949 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:15:34,949 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:15:34,949 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:15:34,949 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:15:34,981 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:15:36,320 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:15:36,320 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:15:36,321 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:15:36,321 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:16:46,876 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:16:46,876 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:16:46,876 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:16:46,876 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,910 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:16:46,909 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:16:46,910 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:16:48,227 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:16:48,227 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:16:48,227 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:16:48,227 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:18:02,280 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:18:02,280 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:18:02,281 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:18:02,281 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,313 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:02,314 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:03,576 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:18:03,576 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:18:03,577 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:18:03,577 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:18:56,476 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:18:56,476 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:18:56,476 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:18:56,476 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:18:56,509 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:18:56,510 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:18:57,862 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:18:57,862 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:18:57,863 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:18:57,863 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:20:22,505 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:20:22,505 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:20:22,505 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:20:22,505 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:20:22,542 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,542 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,541 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:20:22,542 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:20:22,542 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:20:23,890 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:20:23,890 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:20:23,891 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:20:23,891 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:21:50,612 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:21:50,612 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with num_workers: 100
+2019-07-04 16:21:50,613 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:21:50,613 -  nornir.core -    DEBUG -        run() - {'command_string': 'sh policy-map'}
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET14070-DSL-TONBRIDGE.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET10756-READING.CE3: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-MILTONKEYNES.CE2: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-NOTTINGHAM.CE4: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-SPINNINGFIELDS.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-EDINBURGH.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-STMARTINS.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:21:50,645 - nornir.core.task -     INFO -      start() - NET10756-MONTGOMMERYSTREET.CE1: netmiko_send_command: running task
+2019-07-04 16:21:50,644 - nornir.core.task -     INFO -      start() - NET10756-BIRMINGHAM.CE3: netmiko_send_command: running task
+2019-07-04 16:21:52,121 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:21:52,121 - nornir.core.task -    ERROR -      start() - NET10756-BIRMINGHAM.CE3: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.40.212
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.40.212:22
+
+2019-07-04 16:21:52,122 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+
+2019-07-04 16:21:52,122 - nornir.core.task -    ERROR -      start() - NET10756-EDINBURGH.CE1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 782, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\paramiko\client.py", line 362, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 10.161.69.163
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\tasks\networking\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection("netmiko", task.nornir.config)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 297, in get_connection
+    **self.get_connection_parameters(connection).dict(),
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\inventory.py", line 347, in open_connection
+    configuration=configuration,
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\plugins\connections\netmiko.py", line 51, in open
+    self.connection = ConnectHandler(**parameters)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\ssh_dispatcher.py", line 218, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 270, in __init__
+    self.establish_connection()
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\netmiko\base_connection.py", line 787, in establish_connection
+    raise NetMikoTimeoutException(msg)
+netmiko.ssh_exception.NetMikoTimeoutException: Connection to device timed-out: cisco_ios 10.161.69.163:22
+

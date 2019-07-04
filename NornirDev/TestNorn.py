@@ -128,18 +128,17 @@ def ping(task):
 
 # Run the Program
 if __name__ == "__main__":
-    paging(nornir_host)
-    time.sleep(1)
-    duplex(nornir_host)
-    time.sleep(1)
-    logs(nornir_host)
-    time.sleep(1)
-    crc(nornir_host)
-    time.sleep(1)
-    policy(nornir_host)
-    time.sleep(1)
-    ping(nornir_host)
-    time.sleep(1)
+    paging(nornir_host, duplex(nornir_host),)
+    # duplex(nornir_host)
+    # time.sleep(1)
+    # logs(nornir_host)
+    # time.sleep(1)
+    # crc(nornir_host)
+    # time.sleep(1)
+    # policy(nornir_host)
+    # time.sleep(1)
+    # ping(nornir_host)
+    # time.sleep(1)
 
 # Goodbye
 
