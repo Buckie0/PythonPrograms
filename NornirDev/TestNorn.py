@@ -186,7 +186,7 @@ def main(task):
 
 # Run the Program
 print("Running...")
-nr.run(task=main):
+nr.run(task=main)
 
 # Goodbye
 
