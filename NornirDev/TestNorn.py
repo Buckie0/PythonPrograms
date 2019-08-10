@@ -2,23 +2,79 @@ import time
 
 from colored import attr, fg
 
+import subprocess as sp
+import os
+from datetime import datetime
 from nornir import InitNornir
-from nornir.plugins.functions.text import print_result
 from nornir.plugins.tasks.networking import netmiko_send_command
+# from nornir.plugins.tasks.networking import netmiko_send_config
 
-nornir_host = InitNornir(config_file='config.yaml')
+nr = InitNornir(
+    core={"num_workers": 50},
+    logging={"file": "debug/mylogs", "level": "debug"},
+    inventory={
+        "plugin": "nornir.plugins.inventory.simple.SimpleInventory",
+        "options": {
+            "host_file": "inventory/hosts.yaml",
+            "group_file": "inventory/groups.yaml",
+            "defaults_file": "inventory/defaults.yaml",
+        },
+    },
+)
+nr_telnet = InitNornir(
+    core={"num_workers": 50},
+    logging={"file": "debug/mylogs", "level": "debug"},
+    inventory={
+        "plugin": "nornir.plugins.inventory.simple.SimpleInventory",
+        "options": {
+            "host_file": "inventory/hosts_telnet.yaml",
+            "group_file": "inventory/groups.yaml",
+            "defaults_file": "inventory/defaults.yaml",
+        },
+    },
+)
 
-# runhost = nornir_host.filter(groups="cisco-ios")
+# Gather current date/time
+now = datetime.now()
+today = now.strftime("%d-%m-%Y")
 
-print(nornir_host.inventory.hosts)
+# Gather username & password from local environment variables.
+username = os.getenv("USER")
+password = os.getenv("PASSWORD")
+
+# Print results
+print("Username:", username)
+if password:
+    print("Password: SET")
+else:
+    print("Password: NO PASSWORD DEFINED")
+
+# Update nornir default credentials to environment variables.
+nr.inventory.defaults.username = username
+nr.inventory.defaults.password = password
+nr.inventory.groups["cisco-ios"].connection_options["netmiko"].extras["secret"] = password
+
+# Update nornir default credentials to environment variables.
+nr_telnet.inventory.defaults.username = username
+nr_telnet.inventory.defaults.password = password
+nr_telnet.inventory.groups["cisco-ios-telnet"].connection_options["netmiko"].extras["secret"] = password
 
 
-# Disable paging.
-def paging(task):
-    task.run(
-        task=netmiko_send_command,
-        command_string='terminal length 0\n'
-    )
+# Output logs for general actions
+def general_logs(task, message):
+    file = open(f"debug/general_logs.txt", "a")
+    file.write(f"[{datetime.today().strftime('%d-%m-%Y %H:%M:%S.%f')[:-3]}], {task.host.hostname}, {message}\n")
+    file.close()
+
+
+# Output logs for failuress
+def failure_logs(task, message):
+    file = open(f"debug/failure_logs.txt", "a")
+    file.write(f"[{datetime.today().strftime('%d-%m-%Y %H:%M:%S.%f')[:-3]}], {task.host.hostname}, {message}\n")
+    file.close()
+
+
+print(nr.inventory.hosts)
 
 
 # Run Commands, check ouput, then advise.
@@ -30,7 +86,7 @@ def duplex(task):
         command_string='sh int status'
     )
     print_result(duplex_check)
-    for half in duplex_check:
+    for half in duplex_check.result:
         if half == 'half':
             print('''%s\n  HALF DUPLEX DISCOVERED.
         PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int status)%s
@@ -47,7 +103,7 @@ def logs(task):
         command_string='sh log'
     )
     print_result(log_check)
-    for down in log_check:
+    for down in log_check.result:
         if down == "down":
             print('''%s\n  DROPS SEEN.
         PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh log)%s
@@ -64,7 +120,7 @@ def crc(task):
         command_string='sh run | i CRC'
     )
     print_result(crc_check)
-    for crcs in crc_check:
+    for crcs in crc_check.result:
         if ("0") not in crcs:
             print('''%s\n  INTERFACE ERRORS SEEN.
         PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int | i CRC)%s
@@ -90,7 +146,7 @@ def ping(task):
         task=netmiko_send_command,
         command_string='sh vrf'
     )
-    for vrf in vrf_check:
+    for vrf in vrf_check.result:
         if vrf == "VoIP_2":
             print('\n Pinging GSX, Please Wait...')
             print('''%s\n  This will send 1000 pings to the GSX, however you may
@@ -126,19 +182,11 @@ def ping(task):
             PLEASE LOG ONTO DEVICE AND CHECK WHAT VRF IS IN USE (sh ip vrf)''')
 
 
+def main(task):
+
 # Run the Program
-if __name__ == "__main__":
-    paging(nornir_host, duplex(nornir_host),)
-    # duplex(nornir_host)
-    # time.sleep(1)
-    # logs(nornir_host)
-    # time.sleep(1)
-    # crc(nornir_host)
-    # time.sleep(1)
-    # policy(nornir_host)
-    # time.sleep(1)
-    # ping(nornir_host)
-    # time.sleep(1)
+print("Running...")
+nr.run(task=main):
 
 # Goodbye
 
