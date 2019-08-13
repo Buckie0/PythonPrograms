@@ -1,13 +1,12 @@
+import os
 import time
+from datetime import datetime
 
 from colored import attr, fg
 
-import subprocess as sp
-import os
-from datetime import datetime
 from nornir import InitNornir
+from nornir.plugins.functions.text import print_result
 from nornir.plugins.tasks.networking import netmiko_send_command
-# from nornir.plugins.tasks.networking import netmiko_send_config
 
 nr = InitNornir(
     core={"num_workers": 50},
@@ -85,14 +84,12 @@ def duplex(task):
         task=netmiko_send_command,
         command_string='sh int status'
     )
-    print_result(duplex_check)
-    for half in duplex_check.result:
-        if half == 'half':
-            print('''%s\n  HALF DUPLEX DISCOVERED.
-        PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int status)%s
-        ''' % (fg(1), attr(0)))
-        elif duplex_check:
-            print('%s\n  No issues found%s' % (fg(2), attr(0)))
+    if "half" in duplex_check.result:
+        print('''%s\n  HALF DUPLEX DISCOVERED.
+    PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int status)%s
+    ''' % (fg(1), attr(0)))
+    elif duplex_check:
+        print('%s\n  No issues found%s' % (fg(2), attr(0)))
 
 
 # Check Logs
@@ -102,14 +99,13 @@ def logs(task):
         task=netmiko_send_command,
         command_string='sh log'
     )
-    print_result(log_check)
-    for down in log_check.result:
-        if down == "down":
-            print('''%s\n  DROPS SEEN.
-        PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh log)%s
-        ''' % (fg(1), attr(0)))
-        elif log_check:
-            print('%s\n  No drops seen%s' % (fg(2), attr(0)))
+    if "down" in log_check.result:
+        print('''%s\n  DROPS SEEN.
+    PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh log)%s
+    ''' % (fg(1), attr(0)))
+
+    elif log_check:
+        print('%s\n  No drops seen%s' % (fg(2), attr(0)))
 
 
 # Check crc
@@ -119,14 +115,12 @@ def crc(task):
         task=netmiko_send_command,
         command_string='sh run | i CRC'
     )
-    print_result(crc_check)
-    for crcs in crc_check.result:
-        if ("0") not in crcs:
-            print('''%s\n  INTERFACE ERRORS SEEN.
-        PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int | i CRC)%s
-        ''' % (fg(1), attr(0)))
-        elif crc_check:
-            print('%s\n  No issues found%s' % (fg(2), attr(0)))
+    if ("0") not in crc_check.result:
+        print('''%s\n  INTERFACE ERRORS SEEN.
+    PLEASE CONNECT TO DEVICE AND INVESTIGATE (sh int | i CRC)%s
+    ''' % (fg(1), attr(0)))
+    elif crc_check:
+        print('%s\n  No issues found%s' % (fg(2), attr(0)))
 
 
 # Check policy
@@ -146,43 +140,48 @@ def ping(task):
         task=netmiko_send_command,
         command_string='sh vrf'
     )
-    for vrf in vrf_check.result:
-        if vrf == "VoIP_2":
-            print('\n Pinging GSX, Please Wait...')
-            print('''%s\n  This will send 1000 pings to the GSX, however you may
-            need to run further pings %s''' % (fg(2), attr(0)))
-            output = task.run(
-                task=netmiko_send_command,
-                command_string='ping vrf VoIP_2 10.81.253.166 source Vlan251 r 1000 \n'
-            )
-            time.sleep(12)
-            print('\n' + output)
-        if vrf == "VOIP":
-            print('\n Pinging GSX, Please Wait...')
-            print('''%s\n  This will send 1000 pings to the GSX, however you may
-            need to run further pings %s''' % (fg(2), attr(0)))
-            output = task.run(
-                task=netmiko_send_command,
-                command_string='ping vrf VOIP 10.81.253.166 r 1000 \n'
-            )
-            time.sleep(12)
-            print('\n' + output)
-        if vrf == "VoIP":
-            print('\n Pinging GSX, Please Wait...')
-            print('''%s\n  This will send 1000 pings to the GSX, however you may
-            need to run further pings %s''' % (fg(2), attr(0)))
-            output = task.run(
-                task=netmiko_send_command,
-                command_string='ping vrf VoIP 10.81.253.166 r 1000 \n'
-            )
-            time.sleep(12)
-            print('\n' + output)
-        elif vrf:
-            print('''\n Unable to find a VOIP vrf.
-            PLEASE LOG ONTO DEVICE AND CHECK WHAT VRF IS IN USE (sh ip vrf)''')
+    if "VoIP_2" in vrf_check.result:
+        print('\n Pinging GSX, Please Wait...')
+        print('''%s\n  This will send 1000 pings to the GSX, however you may
+        need to run further pings %s''' % (fg(2), attr(0)))
+        output = task.run(
+            task=netmiko_send_command,
+            command_string='ping vrf VoIP_2 10.81.253.166 source Vlan251 r 1000 \n'
+        )
+        time.sleep(12)
+        print('\n' + output)
+    if "VOIP" in vrf_check.result:
+        print('\n Pinging GSX, Please Wait...')
+        print('''%s\n  This will send 1000 pings to the GSX, however you may
+        need to run further pings %s''' % (fg(2), attr(0)))
+        output = task.run(
+            task=netmiko_send_command,
+            command_string='ping vrf VOIP 10.81.253.166 r 1000 \n'
+        )
+        time.sleep(12)
+        print('\n' + output)
+    if "VoIP" in vrf_check.result:
+        print('\n Pinging GSX, Please Wait...')
+        print('''%s\n  This will send 1000 pings to the GSX, however you may
+        need to run further pings %s''' % (fg(2), attr(0)))
+        output = task.run(
+            task=netmiko_send_command,
+            command_string='ping vrf VoIP 10.81.253.166 r 1000 \n'
+        )
+        time.sleep(12)
+        print('\n' + output)
+    else:
+        print('''\n Unable to find a VOIP vrf.
+        PLEASE LOG ONTO DEVICE AND CHECK WHAT VRF IS IN USE (sh ip vrf)''')
 
 
 def main(task):
+    duplex(task)
+    logs(task)
+    crc(task)
+    policy(task)
+    ping(task)
+
 
 # Run the Program
 print("Running...")
