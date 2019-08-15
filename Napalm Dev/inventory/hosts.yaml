@@ -1,0 +1,5 @@
+NET10000-NET-SUP-LAB-HGATE.SW11:
+    hostname: 127.0.0.1
+    groups:
+        - eos
+    port: 12443

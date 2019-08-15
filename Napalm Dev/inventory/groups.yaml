@@ -1,0 +1,30 @@
+---
+defaults: {}
+
+eos:
+  platform: eos
+    extras:
+      session_log: 'nornir_log.log'
+cisco-ios:
+  platform: cisco_ios
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'tacacs-password-here'
+        session_log: 'netmiko_nornir_log.log'
+cisco-ios-telnet:
+  platform: cisco_ios_telnet
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'tacacs-password-here'
+        session_log: 'netmiko_nornir_log.log'
+cisco-nx-os:
+  platform: cisco_nxos
+  connection_options:
+    netmiko:
+      extras:
+        secret: 'tacacs-password-here'
+        session_log: 'netmiko_nornir_log.log'
+fortigate:
+  platform: fortinet

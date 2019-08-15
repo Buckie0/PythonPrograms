@@ -108,6 +108,7 @@ def ping(task):
         return False
     output.close()
 
+
 # this example task logs into each device and checks if it has the option 66 config on it
 # doing this we can tell if it's a Howdens voice router or not
 # if it does have the config on there it will then check that the

@@ -25,8 +25,6 @@ def main(config_file):
 
     # Connect:
     device = driver(hostname='127.0.0.1', username='vagrant',
-
-
                     password='vagrant', optional_args={'port': 12443})
 
     print('Opening ...')
