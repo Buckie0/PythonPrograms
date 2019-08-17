@@ -1,11 +1,12 @@
-ARISTA_EOS:
+---
+ARISTA-EOS:
     hostname: 127.0.0.1
+    groups:
+        - eos
     port: 12201
-    groups:
-        - eos
 
-ARISTA_EOS1:
+ARISTA-EOS1:
     hostname: 127.0.0.1
-    port: 12202
     groups:
         - eos
+    port: 12202

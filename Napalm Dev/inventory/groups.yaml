@@ -2,9 +2,11 @@
 defaults: {}
 
 eos:
-  platform: eos
-    extras:
-      session_log: 'nornir_log.log'
+  platform: arista_eos
+  connection_options:
+    napalm:
+      extras:
+        session_log: 'napalm_nornir_log.log'
 cisco-ios:
   platform: cisco_ios
   connection_options:

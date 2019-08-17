@@ -1,0 +1,2367 @@
+2019-08-16 17:23:44,168 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:23:44,168 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:23:44,168 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:23:44,168 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:23:44,190 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:23:44,190 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:23:44,190 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:23:44,190 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:23:44,192 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:23:44,192 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:23:44,192 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:23:44,192 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:24:14,337 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:24:14,337 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:24:14,337 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:24:14,337 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:24:14,352 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:24:14,352 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:24:14,352 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:24:14,352 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:24:14,354 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:24:14,354 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:24:14,354 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:24:14,354 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 136, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:29:02,055 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:29:02,055 -  nornir.core -     INFO -        run() - Running task 'main' with num_workers: 50
+2019-08-16 17:29:02,055 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:29:02,055 -  nornir.core -    DEBUG -        run() - {}
+2019-08-16 17:29:02,070 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:29:02,070 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:29:02,070 - nornir.core.task -     INFO -      start() - ARISTA-EOS1: main: running task
+2019-08-16 17:29:02,070 - nornir.core.task -     INFO -      start() - ARISTA-EOS: main: running task
+2019-08-16 17:29:02,076 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 138, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:29:02,076 - nornir.core.task -    ERROR -      start() - ARISTA-EOS: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 138, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:29:02,077 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 138, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 17:29:02,077 - nornir.core.task -    ERROR -      start() - ARISTA-EOS1: Traceback (most recent call last):
+  File "C:\Users\m_buck\AppData\Local\Programs\Python\Python37-32\lib\site-packages\nornir\core\task.py", line 62, in start
+    r = self.task(self, **self.params)
+  File "c:/Users/m_buck/Google Drive/Code/PythonPrograms/Napalm Dev/nornir_napalm.py", line 138, in main
+    napalm_command()
+TypeError: napalm_command() missing 1 required positional argument: 'task'
+
+2019-08-16 19:46:01,457 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 19:46:01,524 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'main'
+2019-08-16 19:46:01,524 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'main'
+2019-08-16 19:46:01,528 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'site'
+
+2019-08-16 19:46:01,528 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'site'
+
+2019-08-16 20:12:40,197 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 20:12:40,215 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'main'
+2019-08-16 20:12:40,215 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'main'
+2019-08-16 20:12:40,215 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'load_yaml'
+2019-08-16 20:12:40,216 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'load_yaml'
+2019-08-16 20:12:40,218 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS1.yaml'
+
+2019-08-16 20:12:40,218 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS.yaml'
+
+2019-08-16 20:12:40,218 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:12:40,219 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:47:03,647 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 20:47:03,663 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'main'
+2019-08-16 20:47:03,663 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'load_yaml'
+2019-08-16 20:47:03,663 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'main'
+2019-08-16 20:47:03,664 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'load_yaml'
+2019-08-16 20:47:03,666 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS.yaml'
+
+2019-08-16 20:47:03,667 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS1.yaml'
+
+2019-08-16 20:47:03,667 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:47:03,668 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:51:21,353 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 20:51:21,379 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'main'
+2019-08-16 20:51:21,382 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS': running task 'load_yaml'
+2019-08-16 20:51:21,379 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'main'
+2019-08-16 20:51:21,383 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA-EOS1': running task 'load_yaml'
+2019-08-16 20:51:21,388 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS.yaml'
+
+2019-08-16 20:51:21,388 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ARISTA-EOS1.yaml'
+
+2019-08-16 20:51:21,391 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:51:21,392 - nornir.core.task -    ERROR -      start() - Host 'ARISTA-EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 20:53:01,155 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 20:53:01,172 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 20:53:01,172 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 20:53:01,172 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 20:53:01,172 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 20:53:01,176 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 20:53:01,180 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 20:53:01,244 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 20:53:01,244 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 20:53:01,245 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 20:53:01,245 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 154, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 21:19:05,355 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 21:19:05,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 21:19:05,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 21:19:05,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 21:19:05,376 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 21:19:05,379 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 21:19:05,379 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 21:19:05,404 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 21:19:05,404 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 21:19:05,405 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 21:19:05,405 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 21:37:15,865 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 21:37:15,881 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 21:37:15,881 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 21:37:15,881 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 21:37:15,882 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 21:37:15,884 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 21:37:15,885 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 21:37:15,908 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmt_ip' is undefined
+
+2019-08-16 21:37:15,908 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmt_ip' is undefined
+
+2019-08-16 21:37:15,909 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 155, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 21:37:15,909 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 155, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 22:05:52,179 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:05:52,203 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:05:52,203 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:05:52,203 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 22:05:52,203 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 22:05:52,206 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 22:05:52,207 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 22:05:52,236 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 22:05:52,236 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{bgp_neighbour_test_1}} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 22:05:52,237 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 22:05:52,237 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 22:09:22,607 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:09:22,629 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:09:22,629 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:09:22,629 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 22:09:22,629 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 22:09:22,632 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 22:09:22,633 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 22:09:22,635 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+TypeError: template_file() missing 1 required positional argument: 'path'
+
+2019-08-16 22:09:22,635 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+TypeError: template_file() missing 1 required positional argument: 'path'
+
+2019-08-16 22:09:22,636 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    template="eos_config.j2"
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 22:09:22,637 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    template="eos_config.j2"
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 22:16:05,409 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:16:05,424 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:16:05,425 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:16:05,429 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:16:05,429 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:29:48,281 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:29:48,303 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:29:48,303 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:29:48,307 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:29:48,307 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:35:48,234 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:35:48,249 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:35:48,249 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:35:48,254 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:35:48,254 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:36:46,547 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:36:46,561 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:36:46,561 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:36:46,566 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:36:46,566 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2019-08-16 22:38:07,727 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:38:07,750 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:38:07,750 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:38:07,759 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups:"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups:'
+
+2019-08-16 22:38:07,759 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["groups:"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'groups:'
+
+2019-08-16 22:39:55,648 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:39:55,663 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:39:55,663 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:39:55,667 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["group"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'group'
+
+2019-08-16 22:39:55,668 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["group"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'group'
+
+2019-08-16 22:42:37,998 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 22:42:38,027 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 22:42:38,027 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 22:42:38,032 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["group"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'group'
+
+2019-08-16 22:42:38,032 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["group"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'group'
+
+2019-08-16 23:02:46,179 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:02:46,199 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:02:46,199 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:02:46,199 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:02:46,199 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:02:46,202 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'home.yaml'
+
+2019-08-16 23:02:46,203 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'home.yaml'
+
+2019-08-16 23:02:46,204 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 23:02:46,204 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 23:06:28,593 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:06:28,612 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:06:28,612 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:06:28,613 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:06:28,613 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:06:28,615 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'home.yaml'
+
+2019-08-16 23:06:28,616 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'load_yaml' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/data/load_yaml.py", line 24, in load_yaml
+    with open(file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'home.yaml'
+
+2019-08-16 23:06:28,616 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 23:06:28,617 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["site"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: load_yaml (failed)
+
+
+2019-08-16 23:08:31,129 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:08:31,146 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:08:31,146 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:08:31,150 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["host"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'host'
+
+2019-08-16 23:08:31,151 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 122, in napalm__diff
+    file=f'{task.host["host"]}.yaml'
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'host'
+
+2019-08-16 23:09:33,988 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:09:34,003 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:09:34,003 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:09:34,003 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:09:34,004 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:09:34,006 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:09:34,007 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:09:34,032 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:09:34,032 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:09:34,033 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:09:34,033 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:10:54,052 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:10:54,071 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:10:54,071 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:10:54,071 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:10:54,072 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:10:54,076 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:10:54,076 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:10:54,102 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:10:54,102 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:10:54,103 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:10:54,103 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:11:08,077 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:11:08,092 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:11:08,092 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:11:08,092 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:11:08,093 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:11:08,095 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:11:08,096 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:11:08,109 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:11:08,109 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:11:08,110 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:11:08,111 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:24:39,872 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:24:39,890 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:24:39,891 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:24:39,891 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:24:39,891 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:24:39,894 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:24:39,895 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:24:39,915 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:24:39,916 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:24:39,917 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:24:39,919 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 131, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:26:05,556 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:26:05,572 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:26:05,572 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:26:05,572 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:26:05,572 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:26:05,576 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:26:05,576 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:26:05,604 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:26:05,605 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:26:05,606 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 158, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 132, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:26:05,607 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 158, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 132, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:26:54,359 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:26:54,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:26:54,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:26:54,375 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:26:54,376 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:26:54,382 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:26:54,383 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:32:37,901 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:32:37,917 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:32:37,917 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:32:37,917 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:32:37,917 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:32:37,924 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:32:37,924 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:37:40,590 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:37:40,606 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:37:40,606 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:37:40,606 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:37:40,606 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:37:40,614 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:37:40,614 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:40:18,203 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:40:18,219 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:40:18,219 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:40:18,219 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:40:18,219 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:40:18,227 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:40:18,227 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:41:16,477 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:41:16,494 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:41:16,494 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:41:16,494 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:41:16,494 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:41:16,501 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:41:16,501 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:43:13,728 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:43:13,743 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:43:13,743 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:43:13,744 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:43:13,744 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:43:13,752 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:43:13,753 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:43:48,749 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:43:48,765 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:43:48,765 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:43:48,765 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:43:48,765 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:43:48,774 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:43:48,775 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 157, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 124, in napalm__diff
+    print(task.host["hostname"])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/inventory.py", line 150, in __getitem__
+    return self.data[item]
+KeyError: 'hostname'
+
+2019-08-16 23:45:27,361 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-16 23:45:27,376 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-16 23:45:27,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-16 23:45:27,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-16 23:45:27,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-16 23:45:27,380 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-16 23:45:27,380 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-16 23:45:27,402 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:45:27,403 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-16 23:45:27,406 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 155, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-16 23:45:27,407 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 155, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:05:40,951 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 07:05:40,973 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 07:05:40,973 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 07:05:40,973 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 07:05:40,974 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 07:05:40,977 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 07:05:40,977 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 07:05:41,005 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 07:05:41,006 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 07:05:41,008 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:05:41,008 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:07:01,973 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 07:07:01,991 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 07:07:01,991 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 07:07:01,992 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 07:07:01,992 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 07:07:01,994 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 07:07:01,995 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 07:07:02,017 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'host_name' is undefined
+
+2019-08-17 07:07:02,018 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'host_name' is undefined
+
+2019-08-17 07:07:02,019 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:07:02,019 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:08:01,858 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 07:08:01,883 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 07:08:01,883 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 07:08:01,884 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 07:08:01,884 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 07:08:01,886 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 07:08:01,888 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 07:08:01,921 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'host_name' is undefined
+
+2019-08-17 07:08:01,921 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'host_name' is undefined
+
+2019-08-17 07:08:01,922 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:08:01,923 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 160, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 130, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:13:10,335 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 07:13:10,351 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 07:13:10,351 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 07:13:10,351 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 07:13:10,351 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 07:13:10,354 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 07:13:10,355 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 07:13:10,374 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 07:13:10,374 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 07:13:10,375 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 07:13:10,376 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:14:23,500 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:14:23,523 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:14:23,524 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:14:23,525 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:14:23,525 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:14:23,529 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:14:23,529 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:14:23,550 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 09:14:23,551 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 09:14:23,552 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:14:23,552 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:16:39,098 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:16:39,124 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:16:39,124 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:16:39,124 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:16:39,125 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:16:39,127 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:16:39,129 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:16:39,149 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 09:16:39,150 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'hostname' is undefined
+
+2019-08-17 09:16:39,151 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:16:39,151 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:19:01,979 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:19:01,997 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:19:01,997 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:19:01,997 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:19:01,997 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:19:01,999 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:19:02,001 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:19:02,026 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmt_ip' is undefined
+
+2019-08-17 09:19:02,027 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmt_ip' is undefined
+
+2019-08-17 09:19:02,028 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:19:02,028 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:20:08,342 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:20:08,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:20:08,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:20:08,377 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:20:08,378 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:20:08,380 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:20:08,381 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:20:08,411 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmtip' is undefined
+
+2019-08-17 09:20:08,411 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 32, in top-level template code
+    neighbor {{ bgp_neighbour_test_1 }} maximum-routes 12000
+jinja2.exceptions.UndefinedError: 'mgmtip' is undefined
+
+2019-08-17 09:20:08,418 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:20:08,418 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:23:02,697 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:23:02,712 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:23:02,713 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:23:02,713 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:23:02,713 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:23:02,716 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:23:02,717 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:23:02,743 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in mgmtip %}
+jinja2.exceptions.UndefinedError: 'mgmtip' is undefined
+
+2019-08-17 09:23:02,744 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in mgmtip %}
+jinja2.exceptions.UndefinedError: 'mgmtip' is undefined
+
+2019-08-17 09:23:02,745 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:23:02,745 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:24:39,531 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:24:39,548 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:24:39,548 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:24:39,548 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:24:39,548 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:24:39,551 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:24:39,553 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:24:39,576 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in networks %}
+jinja2.exceptions.UndefinedError: 'networks' is undefined
+
+2019-08-17 09:24:39,576 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in networks %}
+jinja2.exceptions.UndefinedError: 'networks' is undefined
+
+2019-08-17 09:24:39,577 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:24:39,578 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:26:20,683 -  nornir.core -     INFO -        run() - Running task 'main' with args {} on 2 hosts
+2019-08-17 09:26:20,698 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'main'
+2019-08-17 09:26:20,698 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'main'
+2019-08-17 09:26:20,699 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'load_yaml'
+2019-08-17 09:26:20,699 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'load_yaml'
+2019-08-17 09:26:20,701 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS': running task 'template_file'
+2019-08-17 09:26:20,702 - nornir.core.task -    DEBUG -      start() - Host 'ARISTA_EOS1': running task 'template_file'
+2019-08-17 09:26:20,732 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in network %}
+jinja2.exceptions.UndefinedError: 'network' is undefined
+
+2019-08-17 09:26:20,733 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'template_file' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/plugins/tasks/text/template_file.py", line 35, in template_file
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/helpers/jinja_helper.py", line 18, in render_from_file
+    return t.render(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "eos_config.j2", line 21, in top-level template code
+    {% for n in network %}
+jinja2.exceptions.UndefinedError: 'network' is undefined
+
+2019-08-17 09:26:20,733 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS1': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+
+2019-08-17 09:26:20,734 - nornir.core.task -    ERROR -      start() - Host 'ARISTA_EOS': task 'main' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 67, in start
+    r = self.task(self, **self.params)
+  File "nornir_napalm.py", line 169, in main
+    if napalm__diff(task):
+  File "nornir_napalm.py", line 137, in napalm__diff
+    path="")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/nornir/core/task.py", line 124, in run
+    raise NornirSubTaskError(task=task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: template_file (failed)
+
+

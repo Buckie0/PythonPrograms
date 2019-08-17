@@ -1,15 +1,17 @@
-import napalm
+# import napalm
 import os
 import subprocess as sp
 import sys
 from datetime import datetime
-from netmiko.ssh_exception import NetMikoAuthenticationException
 from nornir import InitNornir
 from nornir.core.exceptions import NornirSubTaskError
 import pandas as pd
-from nornir.plugins.tasks.networking import netmiko_send_command  # noqa
-from nornir.plugins.tasks.networking import netmiko_send_config  # noqa
 from nornir.plugins.functions.text import print_result  # noqa
+# from jinja2 import Environment, FileSystemLoader
+from nornir.plugins.tasks.data import load_yaml
+from nornir.plugins.tasks.text import template_file
+from nornir.plugins.tasks.networking import napalm_configure
+
 
 nr = InitNornir(
     core={"num_workers":
@@ -40,23 +42,20 @@ nr_telnet = InitNornir(
     },
 )
 
-# Use the appropriate network driver to connect to the device
-driver = napalm.get_network_driver('eos')
-
 # Gather current date/time
 now = datetime.now()
 today = now.strftime("%d-%m-%Y")
 
 # Gather username & password from local environment variables.
-username = os.getenv("USER")
-password = os.getenv("PASSWORD")
+# username = os.getenv("USER")
+# password = os.getenv("PASSWORD")
 
 # Print results
-print("Username:", username)
-if password:
-    print("Password: SET")
-else:
-    print("Password: NO PASSWORD DEFINED")
+# print("Username:", username)
+# if password:
+#     print("Password: SET")
+# else:
+#     print("Password: NO PASSWORD DEFINED")
 
 
 # Output logs for general actions
@@ -76,14 +75,14 @@ def failure_logs(task, message):
 
 
 # Update nornir default credentials to environment variables.
-nr.inventory.defaults.username = username
-nr.inventory.defaults.password = password
-nr.inventory.groups["cisco-ios"].connection_options["netmiko"].extras["secret"] = password
+# nr.inventory.defaults.username = username
+# nr.inventory.defaults.password = password
+# nr.inventory.groups["cisco-ios"].connection_options["netmiko"].extras["secret"] = password
 
-# Update nornir default credentials to environment variables.
-nr_telnet.inventory.defaults.username = username
-nr_telnet.inventory.defaults.password = password
-nr_telnet.inventory.groups["cisco-ios-telnet"].connection_options["netmiko"].extras["secret"] = password
+# # Update nornir default credentials to environment variables.
+# nr_telnet.inventory.defaults.username = username
+# nr_telnet.inventory.defaults.password = password
+# nr_telnet.inventory.groups["cisco-ios-telnet"].connection_options["netmiko"].extras["secret"] = password
 
 # this sets the output directory to "/path/to/this/script/output"
 # please make sure there is an output folder in this script direcotyr
@@ -109,84 +108,84 @@ def ping(task):
     output.close()
 
 
-def napalm_command(task, config_file):
-    """Load a config for the device."""
+# def render_template(task):
+#     file_loader = FileSystemLoader(',')
 
-    if not (os.path.exists(config_file) and os.path.isfile(config_file)):
-        msg = 'Missing or invalid config file {0}'.format(config_file)
-        raise ValueError(msg)
+#     env = Environment(loader=file_loader)
+#     template = env.get_template('eos_config.j2')
+#     output = template.render()
 
-    print('Loading config file {0}.'.format(config_file))
 
-    print('Opening ...')
-    task.open()
-
-    print('Loading config ...')
-    task.load_merge_candidate(filename=config_file)
-
-    # Note that the changes have not been applied yet. Before applying
-    # the configuration you can check the changes:
-    print('\nDiff:')
-    diffs = task.compare_config()
-
-    # You can commit or discard the candidate changes.
-
-    if len(diffs) > 0:
-        print(diffs)
-
-        choice = input("""\nType COMMIT to commit the confguration changes or hit
-    ENTR to abort: """)
-        if choice == 'COMMIT':
-            print('Committing ...')
-            try:
-                task.commit_config()
-
-            except Exception as inst:
-                print('\nAn error occured with the commit')
-                print(type(inst))
-                sys.exit(inst)
-                print()
-
-            else:
-                print("Configuration committed")
-
-        else:
-            print('Discarding ...')
-            task.discard_config()
+def napalm__diff(task):
+    try:
+        data = task.run(
+            task=load_yaml,
+            file=f'{task.host}.yaml'
+        )
+    except FileNotFoundError:
+        print({task.host} + "No changes to make(no config file found).")
+ 
     else:
-        print("No changes ceeded")
+        task.host["bgp_neighbour_test"] = data.result["bgp_neighbour_test"]
+        task.host["bgp_neighbour_test_remote"] = data.result["bgp_neighbour_test_remote"]
+        task.host["bgp_neighbour_test_1"] = data.result["bgp_neighbour_test_1"]
+        task.host["bgp_neighbour_test_1_remote"] = data.result["bgp_neighbour_test_1_remote"]
+        task.host["host"] = data.result["host"]
+        task.host["network"] = data.result["network"]
+        task.host["config"] = task.run(task=template_file,
+                                       template="eos_config.j2",
+                                       path="")
+        task.run(task=napalm_configure,
+                 configuration=task.host["config"]
+                 (replace=False, merge=False))
 
 
-def rollback(device):
-    choice_rollback = input("""\n type ROLLBACK to rollback or hit
-NTER to save them: """)
-    if choice_rollback == 'ROLLBACK':
-        print('Rolling Back Changes...')
-        try:
-            device.discard_config()
-        except Exception as inst:
-            print("An error occured with the rollback")
-            print(type(inst))
-            sys.exit(inst)
-            print()
+def napalm_replace(task):
+    try:
+        data = task.run(
+            task=load_yaml,
+            file=f'{task.host}.yaml'
+        )
+    except FileNotFoundError:
+        print({task.host} + "No changes to make(no config file found).")
+
     else:
-        device.close()
-        print('Done.')
+        task.host["bgp_neighbour_test"] = data.result["bgp_neighbour_test"]
+        task.host["bgp_neighbour_test_remote"] = data.result["bgp_neighbour_test_remote"]
+        task.host["bgp_neighbour_test_1"] = data.result["bgp_neighbour_test_1"]
+        task.host["bgp_neighbour_test_1_remote"] = data.result["bgp_neighbour_test_1_remote"]
+        task.host["host"] = data.result["host"]
+        task.host["network"] = data.result["network"]
+        r = task.run(task=template_file, template="eos_config.j2", path="")
+        task.host["template_config"] = r.result
+        task.run(task=napalm_configure,
+                 configuration=task.host["template_config"]
+                 )
 
 
 # The start of the actual nornir part
 # the nr.run will run the task called "main" which we defined above
 def main(task):
-    if ping(task):
-        task_filter = nr.filter(hostname=task.host.hostname)
-        task_filter.run(task=napalm_command)
+    if napalm__diff(task):
+        choice = input("""\nType COMMIT to commit the confguration changes or hit
+        ENTER to abort: """)
+        if choice == 'COMMIT':
+            print('Committing ...')
+            try:
+                napalm_replace(task)
+            except Exception as inst:
+                print('\nAn error occured with the commit')
+                print(type(inst))
+                sys.exit(inst)
+                print()
+            else:
+                print("Configuration committed")
+        else:
+            print('Discarding ...')
     else:
-        failure_logs(task, message="DOWN")
+        print("Goodbye.")
 
 
 print("Running...")
-if len(sys.argv) < 2:
-    print('Please supply the full path to "new_good.conf"')
-    sys.exit(1)
-    config_file = sys.argv[1]
-nr.run(task=main)
+r = nr.run(task=main)
+print_result(r)

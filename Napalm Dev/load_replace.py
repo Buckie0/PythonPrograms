@@ -11,6 +11,14 @@ import sys
 import os
 
 
+def render_template():
+    file_loader = FileSystemLoader(',')
+
+    env = Environment(loader=file_loader)
+    template = env.get_template('eos_config.j2')
+    output = template.render()
+
+
 def main(config_file):
     """Load a config for the device."""
 
