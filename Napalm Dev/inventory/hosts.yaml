@@ -1,11 +1,94 @@
+---
 ARISTA_EOS:
     hostname: 127.0.0.1
-    port: 12201
+    port: 12443
     groups:
-        - eos
+        - arista-eos
+    interfaces:
+        - name: Ethernet 1:
+          ip_address: 192.168.0.161
+          ip_mask: 255.255.255.0
+        - name: Ethernet 2:
+          ip_address: 10.10.10.1 
+          ip_mask: 255.255.255.0
+    data:
+        host: eos1
+        bgpneighbourtest: 1.1.1.5
+        bgpneighbourtestremote: 1.1.1.5
+        bgpneighbourtest1: 2.2.2.5
+        bgpneighbourtest1remote: 2.2.2.5
 
 ARISTA_EOS1:
     hostname: 127.0.0.1
-    port: 12202
+    port: 12444
     groups:
-        - eos
+        - arista-eos
+    interfaces:
+        - name: Ethernet 1:
+          ip_address: 192.168.0.162
+          ip_mask: 255.255.255.0
+        - name: Ethernet 2:
+          ip_address: 10.10.10.2
+          ip_mask: 255.255.255.0
+    data:
+        host: eos
+        bgpneighbourtest: 1.1.1.6
+        bgpneighbourtestremote: 1.1.1.6
+        bgpneighbourtest1: 2.2.2.6
+        bgpneighbourtest1remote: 2.2.2.6
+
+GNS-CORE-2:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5000
+    groups:
+        - cisco-ios
+    interfaces:
+        - name:
+
+GNS_IOS2:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5001
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 
+
+GNS-CORE-2:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5002
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 
+
+GNS_IOS4:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5003
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 
+
+GNS_IOS5:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5004
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 
+
+GNS_IOS6:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5005
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 
+
+GNS_IOS7:
+    hostname: networksgns3.ukwest.cloudapp.azure.com
+    port: 5006
+    groups:
+        - cisco-ios
+    interfaces:
+        - name: 

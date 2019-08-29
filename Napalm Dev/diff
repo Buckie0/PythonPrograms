@@ -1,0 +1,117 @@
+
+
+ARISTA_EOS
+,[20-08-2019 22:45:31.873]
+
+
+,[20-08-2019 22:45:31.873]
+
+ARISTA_EOS1
+,[20-08-2019 22:45:31.874]
+
+
+,[20-08-2019 22:45:31.874][21-08-2019 09:07:36.925]
+
+ARISTA_EOS
+,[21-08-2019 09:07:36.930]
+
+@@ -8,24 +8,37 @@
+ !
+ transceiver qsfp default-mode 4x10G
+ !
++hostname eos1
++!
+ spanning-tree mode mstp
+ !
+ aaa authorization exec default local
+ !
+-aaa root secret sha512 $6$JanMSTJIPhrlUN9m$c6.KvBUoo9MICPmSH50PU6gJP60zD5jwFz4gy8kETodGAQFQgG.kTNNvptwT3eq37Q24m17PBGSl8ttpBuA3B.
++no aaa root
+ !
+-username admin privilege 15 role network-admin secret sha512 $6$wjK6FWTpV6VF8FU/$sGr16SFiVTw/DZvQKrLYaDERivfb7tXYsBSv571Y02KATfqws6QMbhErFHl6YLBFY9QJECRLGRHws9rULys0V.
+-username vagrant privilege 15 role network-admin secret sha512 $6$hoteaRh6jeGo.ifp$wmmq.uscDEeISc/LXzN.ek4Qxz7Kjpp.4.oyCMd3td6ZtCNffUy6gpGGC3/ZT8C/J3FpkvUpG11jhpn2.Ffi..
++username admin privilege 15 role network-admin secret 5 $1$RT/92Zg9$J8wD1qPAdQBcOhv4fefyt.
++username vagrant privilege 15 role network-admin secret 5 $1$Lw2STh4k$bPEDVVTY2e7lf.vNlnNEO0
+ !
+ interface Ethernet1
++   description Link1
+ !
+ interface Ethernet2
++   description Link 2
+ !
+ interface Management1
+    ip address 10.0.2.15/24
+ !
+ no ip routing
+ !
++router bgp 65000
++   vrf test
++      neighbor 1.1.1.5 remote-as 1
++      neighbor 1.1.1.5 maximum-routes 12000 
++   !
++   vrf test2
++      neighbor 2.2.2.5 remote-as 2
++      neighbor 2.2.2.5 maximum-routes 12000 
++!
+ management api http-commands
+    no shutdown
+ !
+,[21-08-2019 09:07:36.938]
+
+ARISTA_EOS1
+,[21-08-2019 09:07:36.944]
+
+
+,[21-08-2019 09:09:46.433]
+
+ARISTA_EOS
+,[21-08-2019 09:09:46.439]
+
+@@ -8,24 +8,37 @@
+ !
+ transceiver qsfp default-mode 4x10G
+ !
++hostname eos1
++!
+ spanning-tree mode mstp
+ !
+ aaa authorization exec default local
+ !
+-aaa root secret sha512 $6$JanMSTJIPhrlUN9m$c6.KvBUoo9MICPmSH50PU6gJP60zD5jwFz4gy8kETodGAQFQgG.kTNNvptwT3eq37Q24m17PBGSl8ttpBuA3B.
++no aaa root
+ !
+-username admin privilege 15 role network-admin secret sha512 $6$wjK6FWTpV6VF8FU/$sGr16SFiVTw/DZvQKrLYaDERivfb7tXYsBSv571Y02KATfqws6QMbhErFHl6YLBFY9QJECRLGRHws9rULys0V.
+-username vagrant privilege 15 role network-admin secret sha512 $6$hoteaRh6jeGo.ifp$wmmq.uscDEeISc/LXzN.ek4Qxz7Kjpp.4.oyCMd3td6ZtCNffUy6gpGGC3/ZT8C/J3FpkvUpG11jhpn2.Ffi..
++username admin privilege 15 role network-admin secret 5 $1$RT/92Zg9$J8wD1qPAdQBcOhv4fefyt.
++username vagrant privilege 15 role network-admin secret 5 $1$Lw2STh4k$bPEDVVTY2e7lf.vNlnNEO0
+ !
+ interface Ethernet1
++   description Link1
+ !
+ interface Ethernet2
++   description Link 2
+ !
+ interface Management1
+    ip address 10.0.2.15/24
+ !
+ no ip routing
+ !
++router bgp 65000
++   vrf test
++      neighbor 1.1.1.5 remote-as 1
++      neighbor 1.1.1.5 maximum-routes 12000 
++   !
++   vrf test2
++      neighbor 2.2.2.5 remote-as 2
++      neighbor 2.2.2.5 maximum-routes 12000 
++!
+ management api http-commands
+    no shutdown
+ !
+,[21-08-2019 09:09:46.447]
+
+ARISTA_EOS1
+,[21-08-2019 09:09:46.452]
+
+
+,

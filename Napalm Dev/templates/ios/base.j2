@@ -1,0 +1,389 @@
+
+parser config cache interface
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+!
+hostname {{ host.host }}
+!
+boot-start-marker
+boot-end-marker
+!
+aqm-register-fnf
+!
+no logging console
+enable secret 5 $1$rEen$HnTp.L4mPmEDZagKnE79n1
+!
+aaa new-model
+!
+!
+aaa authentication login TACPLUS group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+aaa accounting commands 1 default start-stop group tacacs+
+aaa accounting commands 15 default start-stop group tacacs+
+aaa accounting network default start-stop group tacacs+
+aaa accounting connection default start-stop group tacacs+
+aaa accounting system default start-stop group tacacs+
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone GMT 0 0
+clock summer-time BST recurring
+!
+!
+!
+!
+!
+!
+
+
+!
+ip vrf GUEST
+ rd 13009:304
+!
+ip vrf STUDENT
+ rd 13009:306
+!
+ip vrf VOIP
+ description ### VoIP VRF ###
+ rd 13009:250
+!
+ip vrf VPN
+ description ### VPN VRF ###
+ rd 13009:300
+!
+ip dhcp database flash:bindings.db
+ip dhcp excluded-address 10.96.65.161
+!
+ip dhcp pool VOIP
+ vrf VOIP
+ network 10.96.65.160 255.255.255.224
+ default-router 10.96.65.161
+ dns-server 10.81.253.45 10.96.254.8 10.81.249.121
+ option 66 ascii "http://P0lyB00tDMS:P0lyB00tDMS-P4ss@autoprov.ipt.intechnology.co.uk/config/"
+ option 42 ip 10.81.253.45 10.96.254.8 10.81.249.121
+ lease 2
+!
+!
+!
+no ip domain lookup
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+license udi pid C891F-K9 sn FCZ20401017
+!
+!
+archive
+ rollback filter adaptive
+memory reserve critical 2000
+username bustradius password 7 120C0B0517070505282721
+!
+!
+!
+!
+!
+track 100 ip route 0.0.0.0 0.0.0.0 reachability
+!
+ip tcp path-mtu-discovery
+!
+class-map match-any VOIP_RTP
+ match protocol rtp
+class-map match-all VOIP_SIGNAL
+ match protocol sip
+class-map match-all ROUTING
+ match dscp cs6  cs7
+!
+policy-map EGRESS
+ class ROUTING
+  bandwidth percent 2
+ class VOIP_RTP
+  priority percent 20
+ class VOIP_SIGNAL
+  bandwidth percent 5
+ class class-default
+  fair-queue
+  random-detect dscp-based
+  police 20000000 3750000 7500000 conform-action transmit  exceed-action drop  violate-action drop
+policy-map MARK_VOIP
+ class VOIP_SIGNAL
+  set dscp af31
+ class VOIP_RTP
+  set dscp ef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+{% if interface is defined %}}
+{% for interface in interfaces %}}
+interface {{ interface.name }}
+ {% if interface.ip_address is defined %}}
+ ip address {{ interface.ip_address }} {{ interface.ip_mask }}
+ {% endif %}}
+!
+{% endfor %}}
+{% endif %}}
+!
+!
+router bgp 64605
+ bgp router-id 10.161.238.167
+ bgp log-neighbor-changes
+ bgp deterministic-med
+ no bgp default ipv4-unicast
+ neighbor 10.160.36.97 remote-as 13009
+ neighbor 10.160.36.97 description *** Primary Mgmnt Flow ***
+ neighbor 10.160.36.97 update-source GigabitEthernet8.36012
+ neighbor 10.160.36.97 version 4
+ neighbor 10.160.36.97 timers 10 30
+ neighbor 10.160.36.101 remote-as 13009
+ neighbor 10.160.36.101 description *** Secondary Mgmnt Flow ***
+ neighbor 10.160.36.101 update-source GigabitEthernet8.35912
+ neighbor 10.160.36.101 version 4
+ !
+ address-family ipv4
+  redistribute connected
+  neighbor 10.160.36.97 activate
+  neighbor 10.160.36.97 next-hop-self
+  neighbor 10.160.36.97 soft-reconfiguration inbound
+  neighbor 10.160.36.97 route-map PRIMARY in
+  neighbor 10.160.36.97 route-map MGMNT_ADVERTISE out
+  neighbor 10.160.36.101 activate
+  neighbor 10.160.36.101 next-hop-self
+  neighbor 10.160.36.101 soft-reconfiguration inbound
+  neighbor 10.160.36.101 route-map PRIMARY in
+  neighbor 10.160.36.101 route-map MGMNT_ADVERTISE out
+ exit-address-family
+ !
+ address-family ipv4 vrf GUEST
+  redistribute connected
+  neighbor 10.160.180.133 remote-as 13009
+  neighbor 10.160.180.133 version 4
+  neighbor 10.160.180.133 timers 10 30
+  neighbor 10.160.180.133 activate
+  neighbor 10.160.180.133 next-hop-self
+  neighbor 10.160.180.133 soft-reconfiguration inbound
+  neighbor 10.160.180.133 route-map GUEST_ADVERTISE out
+ exit-address-family
+ !
+ address-family ipv4 vrf STUDENT
+  redistribute connected
+  neighbor 10.160.180.137 remote-as 13009
+  neighbor 10.160.180.137 version 4
+  neighbor 10.160.180.137 timers 10 30
+  neighbor 10.160.180.137 activate
+  neighbor 10.160.180.137 next-hop-self
+  neighbor 10.160.180.137 soft-reconfiguration inbound
+  neighbor 10.160.180.137 route-map STUDENT_ADVERTISE out
+ exit-address-family
+ !
+ address-family ipv4 vrf VOIP
+  redistribute connected
+  neighbor 10.160.36.121 remote-as 13009
+  neighbor 10.160.36.121 description *** Primary VOIP Flow ***
+  neighbor 10.160.36.121 update-source GigabitEthernet8.3601250
+  neighbor 10.160.36.121 version 4
+  neighbor 10.160.36.121 timers 10 30
+  neighbor 10.160.36.121 activate
+  neighbor 10.160.36.121 next-hop-self
+  neighbor 10.160.36.121 soft-reconfiguration inbound
+  neighbor 10.160.36.121 route-map PRIMARY in
+  neighbor 10.160.36.121 route-map VOIP_ADVERTISE out
+  neighbor 10.160.36.125 remote-as 13009
+  neighbor 10.160.36.125 description *** Secondary VOIP Flow ***
+  neighbor 10.160.36.125 update-source GigabitEthernet8.3591250
+  neighbor 10.160.36.125 version 4
+  neighbor 10.160.36.125 activate
+  neighbor 10.160.36.125 next-hop-self
+  neighbor 10.160.36.125 soft-reconfiguration inbound
+  neighbor 10.160.36.125 route-map PRIMARY in
+  neighbor 10.160.36.125 route-map VOIP_ADVERTISE out
+ exit-address-family
+ !
+ address-family ipv4 vrf VPN
+  redistribute connected
+  neighbor 10.160.36.113 remote-as 13009
+  neighbor 10.160.36.113 description *** Primary VPN Flow ***
+  neighbor 10.160.36.113 update-source GigabitEthernet8.3601300
+  neighbor 10.160.36.113 version 4
+  neighbor 10.160.36.113 timers 10 30
+  neighbor 10.160.36.113 activate
+  neighbor 10.160.36.113 next-hop-self
+  neighbor 10.160.36.113 soft-reconfiguration inbound
+  neighbor 10.160.36.113 route-map PRIMARY in
+  neighbor 10.160.36.113 route-map VPN_ADVERTISE out
+  neighbor 10.160.36.117 remote-as 13009
+  neighbor 10.160.36.117 description *** Secondary VPN Flow ***
+  neighbor 10.160.36.117 update-source GigabitEthernet8.3591300
+  neighbor 10.160.36.117 version 4
+  neighbor 10.160.36.117 activate
+  neighbor 10.160.36.117 next-hop-self
+  neighbor 10.160.36.117 soft-reconfiguration inbound
+  neighbor 10.160.36.117 route-map PRIMARY in
+  neighbor 10.160.36.117 route-map VPN_ADVERTISE out
+ exit-address-family
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+ip bgp-community new-format
+ip community-list 1 permit 13009:1
+ip flow-top-talkers
+ top 20
+ sort-by bytes
+!
+ip tacacs source-interface Loopback2
+!
+!
+ip prefix-list GUEST seq 5 permit 1.1.1.0/24
+!
+ip prefix-list MGMNT seq 5 permit 10.161.238.167/32
+!
+ip prefix-list STUDENT seq 5 permit 10.74.20.0/24
+!
+ip prefix-list VOIP seq 5 permit 10.96.65.160/27
+!
+ip prefix-list VPN seq 5 permit 10.73.20.0/24
+ip prefix-list VPN seq 10 permit 10.66.20.0/24
+ip prefix-list VPN seq 15 permit 10.66.148.0/22
+ip prefix-list VPN seq 20 permit 10.74.20.0/24
+logging facility local6
+logging source-interface Loopback2
+logging host 10.254.251.68
+!
+route-map VOIP_ADVERTISE permit 10
+ match ip address prefix-list VOIP
+!
+route-map GUEST_ADVERTISE permit 10
+ match ip address prefix-list GUEST
+!
+route-map PRIMARY permit 10
+ description Select the best path by received community from the core
+ match community 1
+ set weight 23825
+!
+route-map PRIMARY permit 20
+!
+route-map MGMNT_ADVERTISE permit 10
+ match ip address prefix-list MGMNT
+!
+route-map VPN_ADVERTISE permit 10
+ match ip address prefix-list VPN
+!
+route-map STUDENT_ADVERTISE permit 10
+ match ip address prefix-list STUDENT
+!
+snmp-server community VNET RO 25
+snmp-server community OVRWAC RO 25
+snmp-server community ftccorp RO 26
+snmp-server enable traps snmp linkdown linkup coldstart warmstart
+snmp-server enable traps config
+snmp-server enable traps entity
+snmp-server enable traps hsrp
+snmp-server enable traps vtp
+snmp-server host 10.254.128.90 VNET  config
+snmp-server host 10.254.128.95 VNET  config
+snmp-server host 10.254.128.96 VNET  config
+snmp-server host 10.254.251.106 VNET
+snmp-server host 10.254.251.136 VNET
+snmp-server host 10.254.251.2 VNET  config
+snmp-server host 10.254.251.3 VNET  config
+snmp-server host 10.254.251.32 VNET  config
+tacacs-server host 10.254.251.112 key 7 110C0B2405195D0A08253C3265
+tacacs-server host 10.254.128.112 key 7 0203167A190D592740411E0F48
+access-list 9 remark NTP Access
+access-list 9 remark -----------------------------
+access-list 9 permit 10.254.251.1
+access-list 25 remark SNMP Access
+access-list 25 remark -----------------------------
+access-list 25 permit 10.254.240.0 0.0.15.255
+access-list 25 permit 10.254.128.0 0.0.3.255
+access-list 26 permit 10.73.1.49
+access-list 26 permit 10.73.32.248
+access-list 99 remark VTY Access
+access-list 99 remark -----------------------------
+access-list 99 permit 10.254.240.0 0.0.15.255
+access-list 99 permit 10.254.128.0 0.0.3.255
+access-list 99 permit 10.160.0.0 0.0.255.255
+access-list 99 permit 10.161.0.0 0.0.255.255
+!
+!
+!
+control-plane
+!
+!
+!
+mgcp behavior rsip-range tgcp-only
+mgcp behavior comedia-role none
+mgcp behavior comedia-check-media-src disable
+mgcp behavior comedia-sdp-force disable
+!
+mgcp profile default
+!
+!
+!
+!
+banner exec ^C
+You are logged into line $(line)^C
+banner motd ^C
+/----------------------------------------------------------------------------\
+|                           WARNING - Please Note                            |
+|                                                                            |
+| This system is restricted solely to InTechnology authorized personnel for  |
+| legitimate business purposes only. The actual or attempted unauthorized    |
+| access, use or modification of this system is strictly prohibited.         |
+|                                                                            |
+| Unauthorized use may be subject to InTechnology disciplinary proceedings   |
+| and/or criminal and civil penalties "UK, European or other" applicable     |
+| domestic and foreign laws.                                                 |
+|                                                                            |
+| The use of this system is monitored and recorded for administrative and    |
+| security reasons. Anyone accessing this system expressly consents to such  |
+| monitoring.                                                                |
+|                                                                            |
+| noc@intechnology.co.uk                                                     |
+\----------------------------------------------------------------------------/
+^C
+!
+line con 0
+ exec-timeout 60 0
+ login authentication TACPLUS
+ no modem enable
+line aux 0
+ login authentication TACPLUS
+line 3
+ modem InOut
+ speed 115200
+ flowcontrol hardware
+line vty 0 4
+ access-class 99 in
+ login authentication TACPLUS
+ transport input all
+!
+scheduler allocate 20000 1000
+ntp source Loopback2
+ntp access-group peer 9
+ntp server 10.254.251.1
+!
+end

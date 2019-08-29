@@ -231,6 +231,7 @@ def checklogs():
     elif logs:
         return nodrop
 
+
 print(Webpage((checklogs(), 0, 0, 0)))
 
 # Check duplex settings on interfaces.

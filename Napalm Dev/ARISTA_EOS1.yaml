@@ -1,9 +1,0 @@
----
-host: eos1
-network:
-  - net: 10.0.2.22
-  - mask: 255.255.255.0
-bgp_neighbour_test: 1.1.1.2
-bgp_neighbour_test_remote: 1.1.1.2
-bgp_neighbour_test_1: 2.2.2.2
-bgp_neighbour_test_1_remote: 2.2.2.2

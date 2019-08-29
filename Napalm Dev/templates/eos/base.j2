@@ -1,0 +1,39 @@
+transceiver qsfp default-mode 4x10G
+!
+hostname {{ host.host }}
+!
+spanning-tree mode mstp
+!
+aaa authorization exec default local
+!
+no aaa root
+!
+username admin privilege 15 role network-admin secret 5 $1$RT/92Zg9$J8wD1qPAdQBcOhv4fefyt.
+username vagrant privilege 15 role network-admin secret 5 $1$Lw2STh4k$bPEDVVTY2e7lf.vNlnNEO0
+!
+{% if interface is defined %}}
+{% for interface in interfaces %}}
+interface {{ interface.name }}
+ {% if interface.ip_address is defined %}}
+ ip address {{ interface.ip_address }} {{ interface.ip_mask }}
+ {% endif %}}
+!
+{% endfor %}}
+{% endif %}}
+!  
+no ip routing
+!
+router bgp 65000
+   vrf test
+      neighbor {{ host.bgpneighbourtestremote }} remote-as 1
+      neighbor {{ host.bgpneighbourtest }} maximum-routes 12000
+!
+   vrf test2
+      neighbor {{ host.bgpneighbourtest1remote }} remote-as 2
+      neighbor {{ host.bgpneighbourtest1 }} maximum-routes 12000
+!
+management api http-commands
+   no shutdown
+!
+!
+end
