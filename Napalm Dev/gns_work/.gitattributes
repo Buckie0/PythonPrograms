@@ -1,4 +1,0 @@
-.gitattributes export-ignore
-.gitignore export-ignore
-gns3_gui.conf export-ignore
-gns3_server.conf export-ignore
