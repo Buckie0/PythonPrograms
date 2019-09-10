@@ -2,6 +2,7 @@
 import os
 import subprocess as sp
 import sys
+import requests
 from datetime import datetime
 from nornir import InitNornir
 from nornir.core.exceptions import NornirSubTaskError
@@ -101,6 +102,18 @@ def ping(task):
     output.close()
 
 
+def chuck_fact():
+    headers = {'Content-Type': 'application/json'}
+    url = "https://api.chucknorris.io/jokes/random"
+    response = requests.get(url, headers=headers)
+    fact = response.json()
+    if response.status_code == 200:
+        print(fact['value'])
+    else:
+        print("Chuck is not at Home.")
+    return None
+
+
 def diff_logs(task):
     file = open(f"diff", "a")
     file.write(f"[{datetime.today().strftime('%d-%m-%Y %H:%M:%S.%f')[:-3]}]\n\n{(task)}\n,")
@@ -108,6 +121,7 @@ def diff_logs(task):
 
 
 def napalm__diff(task):
+    print(f"{task.host.name} - Changes found, please check diff")
     r = task.run(task=text.template_file,
                  name="Base Configuration",
                  template="base.j2",
@@ -119,22 +133,20 @@ def napalm__diff(task):
              name="Device diff config",
              configuration=task.host["config"],
              )
-    print(f"{task.host.name} - Changes found, please check diff")
 
 
 def main(task):
     result = napalm__diff(task)
-    diff_logs(task(result))
+    if not result[task][2].diff:
+        print("No Changes Found")
+    else:
+        diff_logs(result[task][0].host)
+        diff_logs(result[task][2].diff)
 
 
 # The start of the actual nornir part
 # the nr.run will run the task called "main" which we defined above
 print_title("Nornir Napalm diff")
 
-result = nr.run(task=main)
-for task in result:
-    if result[task][2].diff is not None:
-        diff_logs(result[task][0].host)
-        diff_logs(result[task][2].diff)
-    else:
-        print("No Changes Found")
+chuck_fact()
+nr.run(task=main)

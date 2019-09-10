@@ -1,86 +1,38 @@
 ---
-ARISTA_EOS:
+ARISTA_1:
     hostname: 127.0.0.1
     port: 12443
     groups:
         - arista-eos
-    interfaces:
-        - name: Ethernet 1:
-          ip_address: 192.168.0.161
-          ip_mask: 255.255.255.0
-        - name: Ethernet 2:
-          ip_address: 10.10.10.1 
-          ip_mask: 255.255.255.0
     data:
+        interfaces:
+            - name: Ethernet 1
+              ip_address: 192.168.0.170
+              ip_mask: 255.255.255.0
+            - name: Ethernet 2
+              ip_address: 10.10.10.4
+              ip_mask: 255.255.255.0
         host: eos1
-        bgpneighbourtest: 1.1.1.5
-        bgpneighbourtestremote: 1.1.1.5
-        bgpneighbourtest1: 2.2.2.5
-        bgpneighbourtest1remote: 2.2.2.5
+        bgpneighbourtest: 1.1.1.6
+        bgpneighbourtestremote: 1.1.1.7
+        bgpneighbourtest1: 2.2.2.6
+        bgpneighbourtest1remote: 2.2.2.6
 
-ARISTA_EOS_1:
+ARISTA_2:
     hostname: 127.0.0.1
     port: 12444
     groups:
         - arista-eos
-    interfaces:
-        - name: Ethernet 1:
-          ip_address: 192.168.0.162
-          ip_mask: 255.255.255.0
-        - name: Ethernet 2:
-          ip_address: 10.10.10.2
-          ip_mask: 255.255.255.0
     data:
+        interfaces:
+            - name: Ethernet 1
+              ip_address: 192.168.0.171
+              ip_mask: 255.255.255.0
+            - name: Ethernet 2
+              ip_address: 10.10.10.3
+              ip_mask: 255.255.255.0
         host: eos
-        bgpneighbourtest: 1.1.1.6
-        bgpneighbourtestremote: 1.1.1.6
-        bgpneighbourtest1: 2.2.2.6
-        bgpneighbourtest1remote: 2.2.2.6
-
-GNS_CORE_1:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5000
-    groups:
-        - cisco-ios
-    interfaces:
-        - name:
-
-GNS_IOS_2:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5001
-    groups:
-        - cisco-ios
-    interfaces:
-        - name: 
-
-GNS_CORE_2:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5002
-    groups:
-        - cisco-ios
-    interfaces:
-        - name: 
-
-GNS_IOS_4:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5003
-    groups:
-        - cisco-ios
-    interfaces:
-        - name: 
-
-GNS_IOS_5:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5004
-    groups:
-        - cisco-ios
-    interfaces:
-        - name: 
-
-GNS_FORTI_1:
-    hostname: networksgns3.ukwest.cloudapp.azure.com
-    port: 5005
-    groups:
-        - fortigate
-    interfaces:
-        - name: 
+        bgpneighbourtest: 1.1.1.9
+        bgpneighbourtestremote: 1.1.1.10
+        bgpneighbourtest1: 2.2.2.8
+        bgpneighbourtest1remote: 2.2.2.8

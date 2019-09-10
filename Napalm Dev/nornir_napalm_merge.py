@@ -2,6 +2,7 @@
 import os
 import subprocess as sp
 import sys
+import requests
 from datetime import datetime
 from nornir import InitNornir
 from nornir.core.exceptions import NornirSubTaskError
@@ -106,6 +107,18 @@ def ping(task):
     output.close()
 
 
+def chuck_fact():
+    headers = {'Content-Type': 'application/json'}
+    url = "https://api.chucknorris.io/jokes/random"
+    response = requests.get(url, headers=headers)
+    fact = response.json()
+    if response.status_code == 200:
+        print(fact['value'])
+    else:
+        print("Chuck is not at Home.")
+    return None
+
+
 def napalm__merge(task):
     r = task.run(task=text.template_file,
                  name="Base Configuration",
@@ -129,4 +142,5 @@ def main(task):
 # The start of the actual nornir part
 # the nr.run will run the task called "main" which we defined above
 print_title("Nornir Napalm Commit - Merge")
+chuck_fact()
 nr.run(task=main)
