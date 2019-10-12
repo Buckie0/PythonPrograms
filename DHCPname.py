@@ -14,14 +14,14 @@ if __name__ == "__main__":
                 DHCP pool details. \n""""")
 
 # Request Device IP
-    Host = raw_input("Enter CE IP: ")
+    Host = input("Enter CE IP: ")
     # Check input is a valid IP, Error if it isnt and return to prompt
     while True:
         try:
             socket.inet_aton(Host)
         except socket.error:
             print("Please Enter a Valid IP!")
-            Host = raw_input("Enter CE IP: ")
+            Host = input("Enter CE IP: ")
             continue
         else:
             break
@@ -36,12 +36,12 @@ if __name__ == "__main__":
                                            TELNET_TIMEOUT)
         except socket.error:
             print("Unable to Connect to device, please check device IP")
-            Host = raw_input("Enter CE IP: ")
+            Host = input("Enter CE IP: ")
             continue
     # If the device is up, request login details
     # Then send username and password.
         else:
-            username = raw_input("Username: ")
+            username = input("Username: ")
             password = getpass.getpass("Password: ")
             enable = getpass.getpass("Enable: ")
         print("""
