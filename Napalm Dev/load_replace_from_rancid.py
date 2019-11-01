@@ -32,15 +32,17 @@ device = driver(hostname=mgmt_ip, username=tacacs_user,
 def render_template():
     config_file = get_config(management_ip=mgmt_ip, company_code=comp_code)
     print('Loading config file...')
-    print(config_file)
-    return config_file
+    config = config_file.split('config-register 0x2102', 1)
+    return config[1]
 
 
 def diff_commit(config_file):
     """Load a config for the device."""
-
-    print('Opening ...')
-    device.open()
+    try:
+        print('Opening connection to device...')
+        device.open()
+    except napalm.base.exceptions.ConnectionException:
+        print('Could not connect to device')
 
     print('Loading config ...')
     device.load_merge_candidate(filename=config_file)
@@ -107,5 +109,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-exit
