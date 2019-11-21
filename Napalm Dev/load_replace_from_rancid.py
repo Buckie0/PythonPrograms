@@ -31,9 +31,10 @@ device = driver(hostname=mgmt_ip, username=tacacs_user,
 # Gather config from rancid and create a jinja template
 def render_template():
     config_file = get_config(management_ip=mgmt_ip, company_code=comp_code)
-    print('Loading config file...')
-    config = config_file.split('config-register 0x2102', 1)
-    return config[1]
+    config_split = config_file.split('config-register 0x2102', 1)
+    config = config_split[1].split('!', 1)
+    with open('config.conf, w') as f:
+        f.write(config)
 
 
 def diff_commit(config_file):
@@ -45,7 +46,14 @@ def diff_commit(config_file):
         print('Could not connect to device')
 
     print('Loading config ...')
-    device.load_merge_candidate(filename=config_file)
+    commands = '''
+    ip scp server enable
+    archive
+    path flash:napalm
+    '''
+    command_list = commands.strip().splitlines()
+    device.device.send_config_set(command_list)
+    device.load_replace_candidate(filename=config_file)
 
     # Note that the changes have not been applied yet. Before applying
     # the configuration you can check the changes:
@@ -57,7 +65,7 @@ def diff_commit(config_file):
     if len(diffs) > 0:
         print(diffs)
 
-        choice_commit = input("""\nType COMMIT to commit the configuration changes or hit
+        choice_commit = input("""\nType COMMIT to commit the configuration  changes or hit
 ENTER to abort: """)
         if choice_commit == 'COMMIT':
             print('Committing ...')
